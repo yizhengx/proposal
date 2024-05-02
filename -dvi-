@@ -1,0 +1,493 @@
+#===Dependents, and related info, for causal.tex:
+causal.pdf :\
+    ./refs.bib\
+    /usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst\
+    /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc\
+    /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc\
+    /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmbc8t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/NewPXMI.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/NewPXMI_gnu.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/pxmiaX.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplexx.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplmi.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplmia.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsy.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsym.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8tn.tfm\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxsys.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmbc8t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/public/newpx/zplmi.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/public/newpx/zplmia.vf\
+    /usr/local/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr8tn.vf\
+    /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/kastrup/binhex.tex\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex\
+    /usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/atveryend/atveryend.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/breakurl/breakurl.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/cite/cite.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmsnpxsy.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmxnpxexx.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/newpxmath.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/omlnpxmi.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxexa.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxmia.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsyc.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsym.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/oberdiek/centernot.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/preprint/balance.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/pslatex/pslatex.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/mathptmx.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/relsize/relsize.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty\
+    /usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty\
+    /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf\
+    /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map\
+    /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt\
+    /usr/local/texlive/2024/texmf.cnf\
+    causal.tex\
+    img/browse-product.pdf\
+    img/example-output.pdf\
+    img/original.png\
+    img/system-overview.png\
+    text.tex\
+    usenix-2020-09.sty
+#===End dependents for causal.tex:
+
+#===Phony rules for causal.tex:
+
+./refs.bib :
+
+/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst :
+
+/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc :
+
+/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc :
+
+/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmbc8t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/NewPXMI.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/NewPXMI_gnu.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/pxmiaX.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplexx.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplmi.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplmia.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsy.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newpx/zplsym.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8tn.tfm :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxsys.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmbc8t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/public/newpx/zplmi.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/public/newpx/zplmia.vf :
+
+/usr/local/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr8tn.vf :
+
+/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/kastrup/binhex.tex :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex :
+
+/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/atveryend/atveryend.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/breakurl/breakurl.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/cite/cite.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmsnpxsy.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmxnpxexx.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/newpxmath.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/omlnpxmi.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxexa.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxmia.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsyc.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsym.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/oberdiek/centernot.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/preprint/balance.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/pslatex/pslatex.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/mathptmx.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/relsize/relsize.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty :
+
+/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty :
+
+/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf :
+
+/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map :
+
+/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt :
+
+/usr/local/texlive/2024/texmf.cnf :
+
+causal.tex :
+
+img/browse-product.pdf :
+
+img/example-output.pdf :
+
+img/original.png :
+
+img/system-overview.png :
+
+text.tex :
+
+usenix-2020-09.sty :
+
+#===End phony rules for causal.tex:

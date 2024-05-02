@@ -1,0 +1,3443 @@
+
+
+@misc{online-boutique,
+    author = {Google},
+    title = {microservices-demo},
+    howpublished = {\url{https://github.com/GoogleCloudPlatform/microservices-demo}},
+    note = {},
+}
+
+@article{Bater2017SMCQL,
+  author    = {Johes Bater and
+               Gregory Elliott and
+               Craig Eggen and
+               Satyender Goel and
+               Abel N. Kho and
+               Jennie Rogers},
+  title     = {{SMCQL:} Secure Query Processing for Private Data Networks},
+  journal   = {Proc. {VLDB} Endow.},
+  volume    = {10},
+  number    = {6},
+  pages     = {673--684},
+  year      = {2017},
+  url       = {http://www.vldb.org/pvldb/vol10/p673-rogers.pdf},
+  doi       = {10.14778/3055330.3055334},
+  timestamp = {Sat, 25 Apr 2020 13:59:42 +0200},
+  biburl    = {https://dblp.org/rec/journals/pvldb/BaterEEGKR17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{mystery_machine,
+author = {Chow, Michael and Meisner, David and Flinn, Jason and Peek, Daniel and Wenisch, Thomas F.},
+title = {The Mystery Machine: End-to-End Performance Analysis of Large-Scale Internet Services},
+year = {2014},
+isbn = {9781931971164},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Current debugging and optimization methods scale poorly to deal with the complexity of modern Internet services, in which a single request triggers parallel execution of numerous heterogeneous software components over a distributed set of computers. The Achilles' heel of current methods is the need for a complete and accurate model of the system under observation: producing such a model is challenging because it requires either assimilating the collective knowledge of hundreds of programmers responsible for the individual components or restricting the ways in which components interact.Fortunately, the scale of modern Internet services offers a compensating benefit: the sheer volume of requests serviced means that, even at low sampling rates, one can gather a tremendous amount of empirical performance observations and apply "big data" techniques to analyze those observations. In this paper, we show how one can automatically construct a model of request execution from pre-existing component logs by generating a large number of potential hypotheses about program behavior and rejecting hypotheses contradicted by the empirical observations. We also show how one can validate potential performance improvements without costly implementation effort by leveraging the variation in component behavior that arises naturally over large numbers of requests to measure the impact of optimizing individual components or changing scheduling behavior.We validate our methodology by analyzing performance traces of over 1.3 million requests to Facebook servers. We present a detailed study of the factors that affect the end-to-end latency of such requests. We also use our methodology to suggest and validate a scheduling optimization for improving Facebook request latency.},
+booktitle = {Proceedings of the 11th USENIX Conference on Operating Systems Design and Implementation},
+pages = {217–231},
+numpages = {15},
+location = {Broomfield, CO},
+series = {OSDI'14}
+}
+
+@inproceedings {snailtrail,
+author = {Moritz Hoffmann and Andrea Lattuada and John Liagouris and Vasiliki Kalavri and Desislava Dimitrova and Sebastian Wicki and Zaheer Chothia and Timothy Roscoe},
+title = {{SnailTrail}: Generalizing Critical Paths for Online Analysis of Distributed Dataflows},
+booktitle = {15th USENIX Symposium on Networked Systems Design and Implementation (NSDI 18)},
+year = {2018},
+isbn = {978-1-939133-01-4},
+address = {Renton, WA},
+pages = {95--110},
+url = {https://www.usenix.org/conference/nsdi18/presentation/hoffmann},
+publisher = {USENIX Association},
+month = apr,
+}
+
+@techreport{dapper,
+title	= {Dapper, a Large-Scale Distributed Systems Tracing Infrastructure},
+author	= {Benjamin H. Sigelman and Luiz André Barroso and Mike Burrows and Pat Stephenson and Manoj Plakal and Donald Beaver and Saul Jaspan and Chandan Shanbhag},
+year	= {2010},
+URL	= {https://research.google.com/archive/papers/dapper-2010-1.pdf},
+institution	= {Google, Inc.}
+}
+
+@inproceedings {xtrace,
+author = {Rodrigo Fonseca and George Porter and Randy H. Katz and Scott Shenker},
+title = {{X-Trace}: A Pervasive Network Tracing Framework },
+booktitle = {4th USENIX Symposium on Networked Systems Design \& Implementation (NSDI 07)},
+year = {2007},
+address = {Cambridge, MA},
+url = {https://www.usenix.org/conference/nsdi-07/x-trace-pervasive-network-tracing-framework},
+publisher = {USENIX Association},
+month = apr,
+}
+
+@article{10.1145/1165389.945454,
+author = {Aguilera, Marcos K. and Mogul, Jeffrey C. and Wiener, Janet L. and Reynolds, Patrick and Muthitacharoen, Athicha},
+title = {Performance Debugging for Distributed Systems of Black Boxes},
+year = {2003},
+issue_date = {December 2003},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {37},
+number = {5},
+issn = {0163-5980},
+url = {https://doi.org/10.1145/1165389.945454},
+doi = {10.1145/1165389.945454},
+abstract = {Many interesting large-scale systems are distributed systems of multiple communicating components. Such systems can be very hard to debug, especially when they exhibit poor performance. The problem becomes much harder when systems are composed of "black-box" components: software from many different (perhaps competing) vendors, usually without source code available. Typical solutions-provider employees are not always skilled or experienced enough to debug these systems efficiently. Our goal is to design tools that enable modestly-skilled programmers (and experts, too) to isolate performance bottlenecks in distributed systems composed of black-box nodes.We approach this problem by obtaining message-level traces of system activity, as passively as possible and without any knowledge of node internals or message semantics. We have developed two very different algorithms for inferring the dominant causal paths through a distributed system from these traces. One uses timing information from RPC messages to infer inter-call causality; the other uses signal-processing techniques. Our algorithms can ascribe delay to specific nodes on specific causal paths. Unlike previous approaches to similar problems, our approach requires no modifications to applications, middleware, or messages.},
+journal = {SIGOPS Oper. Syst. Rev.},
+month = {oct},
+pages = {74–89},
+numpages = {16},
+keywords = {black box systems, performance analysis, performance debugging, distributed systems}
+}
+
+@inproceedings{black_box_services,
+author = {Aguilera, Marcos K. and Mogul, Jeffrey C. and Wiener, Janet L. and Reynolds, Patrick and Muthitacharoen, Athicha},
+title = {Performance Debugging for Distributed Systems of Black Boxes},
+year = {2003},
+isbn = {1581137575},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/945445.945454},
+doi = {10.1145/945445.945454},
+abstract = {Many interesting large-scale systems are distributed systems of multiple communicating components. Such systems can be very hard to debug, especially when they exhibit poor performance. The problem becomes much harder when systems are composed of "black-box" components: software from many different (perhaps competing) vendors, usually without source code available. Typical solutions-provider employees are not always skilled or experienced enough to debug these systems efficiently. Our goal is to design tools that enable modestly-skilled programmers (and experts, too) to isolate performance bottlenecks in distributed systems composed of black-box nodes.We approach this problem by obtaining message-level traces of system activity, as passively as possible and without any knowledge of node internals or message semantics. We have developed two very different algorithms for inferring the dominant causal paths through a distributed system from these traces. One uses timing information from RPC messages to infer inter-call causality; the other uses signal-processing techniques. Our algorithms can ascribe delay to specific nodes on specific causal paths. Unlike previous approaches to similar problems, our approach requires no modifications to applications, middleware, or messages.},
+booktitle = {Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles},
+pages = {74–89},
+numpages = {16},
+keywords = {black box systems, performance debugging, distributed systems, performance analysis},
+location = {Bolton Landing, NY, USA},
+series = {SOSP '03}
+}
+
+@inproceedings{canopy,
+author = {Kaldor, Jonathan and Mace, Jonathan and Bejda, Micha\l{} and Gao, Edison and Kuropatwa, Wiktor and O'Neill, Joe and Ong, Kian Win and Schaller, Bill and Shan, Pingjia and Viscomi, Brendan and Venkataraman, Vinod and Veeraraghavan, Kaushik and Song, Yee Jiun},
+title = {Canopy: An End-to-End Performance Tracing And Analysis System},
+year = {2017},
+isbn = {9781450350853},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3132747.3132749},
+doi = {10.1145/3132747.3132749},
+abstract = {This paper presents Canopy, Facebook's end-to-end performance tracing infrastructure. Canopy records causally related performance data across the end-to-end execution path of requests, including from browsers, mobile applications, and backend services. Canopy processes traces in near real-time, derives user-specified features, and outputs to performance datasets that aggregate across billions of requests. Using Canopy, Facebook engineers can query and analyze performance data in real-time. Canopy addresses three challenges we have encountered in scaling performance analysis: supporting the range of execution and performance models used by different components of the Facebook stack; supporting interactive ad-hoc analysis of performance data; and enabling deep customization by users, from sampling traces to extracting and visualizing features. Canopy currently records and processes over 1 billion traces per day. We discuss how Canopy has evolved to apply to a wide range of scenarios, and present case studies of its use in solving various performance challenges.},
+booktitle = {Proceedings of the 26th Symposium on Operating Systems Principles},
+pages = {34–50},
+numpages = {17},
+location = {Shanghai, China},
+series = {SOSP '17}
+}
+
+@inproceedings{3milebench,
+author = {Zhang, Jun and Ferydouni, Robert and Montana, Aldrin and Bittman, Daniel and Alvaro, Peter},
+title = {3MileBeach: A Tracer with Teeth},
+year = {2021},
+isbn = {9781450386388},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3472883.3486986},
+doi = {10.1145/3472883.3486986},
+abstract = {We present 3MileBeach, a tracing and fault injection platform designed for microservice-based architectures. 3Mile-Beach interposes on the message serialization libraries that are ubiquitous in this environment, avoiding the application code instrumentation that tracing and fault injection infrastructures typically require. 3MileBeach provides message-level distributed tracing at less than 50\% of the overhead of the state-of-the-art tracing frameworks, and fault injection that allows higher precision experiments than existing solutions. We measure the overhead of 3MileBeach as a tracer and its efficacy as a fault injector. We qualitatively measure its promise as a platform for tuning and debugging by sharing concrete use cases in the context of bottleneck identification, performance tuning, and bug finding. Finally, we use 3MileBeach to perform a novel type of fault injection - Temporal Fault Injection (TFI), which more precisely controls individual inter-service message flow with temporal prerequisites, and makes it possible to catch an entirely new class of fault tolerance bugs.},
+booktitle = {Proceedings of the ACM Symposium on Cloud Computing},
+pages = {458–472},
+numpages = {15},
+keywords = {Temporal Fault Injection, Application Tuning, Chaos Engineering, Tracing, Bug Finding},
+location = {Seattle, WA, USA},
+series = {SoCC '21}
+}
+
+@inproceedings {blocked_time,
+author = {Kay Ousterhout and Ryan Rasti and Sylvia Ratnasamy and Scott Shenker and Byung-Gon Chun},
+title = {Making Sense of Performance in Data Analytics Frameworks},
+booktitle = {12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 15)},
+year = {2015},
+isbn = {978-1-931971-218},
+address = {Oakland, CA},
+pages = {293--307},
+url = {https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/ousterhout},
+publisher = {USENIX Association},
+month = may,
+}
+
+@inproceedings{accelerometer,
+author = {Sriraman, Akshitha and Dhanotia, Abhishek},
+title = {Accelerometer: Understanding Acceleration Opportunities for Data Center Overheads at Hyperscale},
+year = {2020},
+isbn = {9781450371025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3373376.3378450},
+doi = {10.1145/3373376.3378450},
+abstract = {At global user population scale, important microservices in warehouse-scale data centers can grow to account for an enormous installed base of servers. With the end of Dennard scaling, successive server generations running these microservices exhibit diminishing performance returns. Hence, it is imperative to understand how important microservices spend their CPU cycles to determine acceleration opportunities across the global server fleet. To this end, we first undertake a comprehensive characterization of the top seven microservices that run on the compute-optimized data center fleet at Facebook.Our characterization reveals that microservices spend as few as 18\% of CPU cycles executing core application logic (e.g., performing a key-value store); the remaining cycles are spent in common operations that are not core to the application logic (e.g., I/O processing, logging, and compression). Accelerating such common building blocks can greatly improve data center performance. Whereas developing specialized hardware acceleration for each building block might be beneficial, it becomes risky at scale if these accelerators do not yield expected gains due to performance bounds precipitated by offload-induced overheads. To identify such performance bounds early in the hardware design phase, we develop an analytical model, Accelerometer, for hardware acceleration that projects realistic speedup in microservices. We validate Accelerometer's utility in production using three retrospective case studies and demonstrate how it estimates the real speedup with ≤ 3.7\% error. We then use Accelerometer to project gains from accelerating important common building blocks identified by our characterization.},
+booktitle = {Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {733–750},
+numpages = {18},
+keywords = {microservice, data center, acceleration, analytical model},
+location = {Lausanne, Switzerland},
+series = {ASPLOS '20}
+}
+
+@inproceedings{erms,
+author = {Luo, Shutian and Xu, Huanle and Ye, Kejiang and Xu, Guoyao and Zhang, Liping and He, Jian and Yang, Guodong and Xu, Chengzhong},
+title = {Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees},
+year = {2022},
+isbn = {9781450399159},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3567955.3567964},
+doi = {10.1145/3567955.3567964},
+abstract = {A common approach to improving resource utilization in data centers is to adaptively provision resources based on the actual workload. One fundamental challenge of doing this in microservice management frameworks, however, is that different components of a service can exhibit significant differences in their impact on end-to-end performance. To make resource management more challenging, a single microservice can be shared by multiple online services that have diverse workload patterns and SLA requirements. We present an efficient resource management system, namely Erms, for guaranteeing SLAs in shared microservice environments. Erms profiles microservice latency as a piece-wise linear function of the workload, resource usage, and interference. Based on this profiling, Erms builds resource scaling models to optimally determine latency targets for microservices with complex dependencies. Erms also designs new scheduling policies at shared microservices to further enhance resource efficiency. Experiments across microservice benchmarks as well as trace-driven simulations demonstrate that Erms can reduce SLA violation probability by 5\texttimes{} and more importantly, lead to a reduction in resource usage by 1.6\texttimes{}, compared to state-of-the-art approaches.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1},
+pages = {62–77},
+numpages = {16},
+keywords = {SLA Guarantees, Shared Microservices, Resource Management},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{sinan,
+author = {Zhang, Yanqi and Hua, Weizhe and Zhou, Zhuangzhuang and Suh, G. Edward and Delimitrou, Christina},
+title = {Sinan: ML-Based and QoS-Aware Resource Management for Cloud Microservices},
+year = {2021},
+isbn = {9781450383172},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3445814.3446693},
+doi = {10.1145/3445814.3446693},
+abstract = {Cloud applications are increasingly shifting from large monolithic services, to large numbers of loosely-coupled, specialized microservices. Despite their advantages in terms of facilitating development, deployment, modularity, and isolation, microservices complicate resource management, as dependencies between them introduce backpressure effects and cascading QoS violations. We present Sinan, a data-driven cluster manager for interactive cloud microservices that is online and QoS-aware. Sinan leverages a set of scalable and validated machine learning models to determine the performance impact of dependencies between microservices, and allocate appropriate resources per tier in a way that preserves the end-to-end tail latency target. We evaluate Sinan both on dedicated local clusters and large-scale deployments on Google Compute Engine (GCE) across representative end-to-end applications built with microservices, such as social networks and hotel reservation sites. We show that Sinan always meets QoS, while also maintaining cluster utilization high, in contrast to prior work which leads to unpredictable performance or sacrifices resource efficiency. Furthermore, the techniques in Sinan are explainable, meaning that cloud operators can yield insights from the ML models on how to better deploy and design their applications to reduce unpredictable performance.},
+booktitle = {Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {167–181},
+numpages = {15},
+keywords = {machine learning for system, resourceallocation, cluster management, resource efficiency, mi-croservices, Cloud computing, datacenter, tail latency, quality of service, resource management},
+location = {Virtual, USA},
+series = {ASPLOS '21}
+}
+
+@inproceedings{meshes_networking,
+author = {Ashok, Sachin and Godfrey, P. Brighten and Mittal, Radhika},
+title = {Leveraging Service Meshes as a New Network Layer},
+year = {2021},
+isbn = {9781450390873},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3484266.3487379},
+doi = {10.1145/3484266.3487379},
+abstract = {As modern cloud services have scaled out, applications have moved from relatively monolithic designs to highly modularized fleets of microservices that communicate among each other to perform application-level tasks. These microservices effectively form a network at the application layer, and service mesh frameworks have recently emerged to factor out microservices' common communication functionality.This paper seeks to highlight the emergence of service meshes as what is effectively a new layer in the networking stack, and the associated new challenges and opportunities. As a case study, we leverage the fact that service meshes can be better informed about application needs, and design a system that utilizes provenance tracing within the service mesh to perform cross-layer prioritization of latency-sensitive requests, within an application serving a mix of workloads. Broadly speaking, we believe that as applications factor out communication into service meshes, an exciting new domain is opening that can utilize techniques from the networking community to improve application performance.},
+booktitle = {Proceedings of the Twentieth ACM Workshop on Hot Topics in Networks},
+pages = {229–236},
+numpages = {8},
+location = {Virtual Event, United Kingdom},
+series = {HotNets '21}
+}
+
+@misc{meshinsight,
+      title={Dissecting Service Mesh Overheads}, 
+      author={Xiangfeng Zhu and Guozhen She and Bowen Xue and Yu Zhang and Yongsu Zhang and Xuan Kelvin Zou and Xiongchun Duan and Peng He and Arvind Krishnamurthy and Matthew Lentz and Danyang Zhuo and Ratul Mahajan},
+      year={2022},
+      eprint={2207.00592},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+
+@inproceedings {kraken,
+author = {Kaushik Veeraraghavan and Justin Meza and David Chou and Wonho Kim and Sonia Margulis and Scott Michelson and Rajesh Nishtala and Daniel Obenshain and Dmitri Perelman and Yee Jiun Song},
+title = {Kraken: Leveraging Live Traffic Tests to Identify and Resolve Resource Utilization Bottlenecks in Large Scale Web Services},
+booktitle = {12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)},
+year = {2016},
+isbn = {978-1-931971-33-1},
+address = {Savannah, GA},
+pages = {635--651},
+url = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/veeraraghavan},
+publisher = {USENIX Association},
+month = nov,
+}
+
+@inproceedings {firm,
+author = {Haoran Qiu and Subho S. Banerjee and Saurabh Jha and Zbigniew T. Kalbarczyk and Ravishankar K. Iyer},
+title = {{FIRM}: An Intelligent Fine-grained Resource Management Framework for {SLO-Oriented} Microservices},
+booktitle = {14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)},
+year = {2020},
+isbn = {978-1-939133-19-9},
+pages = {805--825},
+url = {https://www.usenix.org/conference/osdi20/presentation/qiu},
+publisher = {USENIX Association},
+month = nov,
+}
+
+@inproceedings {crisp,
+author = {Zhizhou Zhang and Murali Krishna Ramanathan and Prithvi Raj and Abhishek Parwal and Timothy Sherwood and Milind Chabbi},
+title = {{CRISP}: Critical Path Analysis of {Large-Scale} Microservice Architectures},
+booktitle = {2022 USENIX Annual Technical Conference (USENIX ATC 22)},
+year = {2022},
+isbn = {978-1-939133-29-50},
+address = {Carlsbad, CA},
+pages = {655--672},
+url = {https://www.usenix.org/conference/atc22/presentation/zhang-zhizhou},
+publisher = {USENIX Association},
+month = jul,
+}
+
+@inproceedings{diff_prov,
+author = {Chen, Ang and Wu, Yang and Haeberlen, Andreas and Zhou, Wenchao and Loo, Boon Thau},
+title = {The Good, the Bad, and the Differences: Better Network Diagnostics with Differential Provenance},
+year = {2016},
+isbn = {9781450341936},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2934872.2934910},
+doi = {10.1145/2934872.2934910},
+abstract = {In this paper, we propose a new approach to diagnosing problems in complex distributed systems. Our approach is based on the insight that many of the trickiest problems are anomalies. For instance, in a network, problems often affect only a small fraction of the traffic (e.g., perhaps a certain subnet), or they only manifest infrequently. Thus, it is quite common for the operator to have “examples” of both working and non-working traffic readily available – perhaps a packet that was misrouted, and a similar packet that was routed correctly. In this case, the cause of the problem is likely to be wherever the two packets were treated differently by the network.We present the design of a debugger that can leverage this information using a novel concept that we call differential provenance. Differential provenance tracks the causal connections between network states and state changes, just like classical provenance, but it can additionally perform root-cause analysis by reasoning about the differences between two provenance trees. We have built a diagnostic tool that is based on differential provenance, and we have used our tool to debug a number of complex, realistic problems in two scenarios: software-defined networks and MapReduce jobs. Our results show that differential provenance can be maintained at relatively low cost, and that it can deliver very precise diagnostic information; in many cases, it can even identify the precise root cause of the problem.},
+booktitle = {Proceedings of the 2016 ACM SIGCOMM Conference},
+pages = {115–128},
+numpages = {14},
+keywords = {Debugging, Provenance, Network diagnostics},
+location = {Florianopolis, Brazil},
+series = {SIGCOMM '16}
+}
+
+@inproceedings {magpie,
+author = {Paul Barham and Rebecca Isaacs and Richard Mortier and Dushyanth Narayanan},
+title = {Magpie: Online Modelling and Performance-aware Systems},
+booktitle = {9th Workshop on Hot Topics in Operating Systems (HotOS IX)},
+year = {2003},
+address = {Lihue, HI},
+url = {https://www.usenix.org/conference/hotos-ix/magpie-online-modelling-and-performance-aware-systems},
+publisher = {USENIX Association},
+month = may,
+}
+
+
+
+
+@inproceedings {pivot_tracing,
+author = {Jonathan Mace and Ryan Roelke and Rodrigo Fonseca},
+title = {Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems},
+booktitle = {2016 USENIX Annual Technical Conference (USENIX ATC 16)},
+year = {2016},
+address = {Denver, CO},
+url = {https://www.usenix.org/conference/atc16/technical-sessions/presentation/mace},
+publisher = {USENIX Association},
+month = jun,
+}
+
+@inproceedings{DBLP:conf/sp/NikolaenkoWIJBT13,
+  author    = {Valeria Nikolaenko and
+               Udi Weinsberg and
+               Stratis Ioannidis and
+               Marc Joye and
+               Dan Boneh and
+               Nina Taft},
+  title     = {Privacy-Preserving Ridge Regression on Hundreds of Millions of Records},
+  booktitle = {2013 {IEEE} Symposium on Security and Privacy, {SP} 2013, Berkeley,
+               CA, USA, May 19-22, 2013},
+  pages     = {334--348},
+  publisher = {{IEEE} Computer Society},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/SP.2013.30},
+  doi       = {10.1109/SP.2013.30},
+  timestamp = {Wed, 16 Oct 2019 14:14:51 +0200},
+  biburl    = {https://dblp.org/rec/conf/sp/NikolaenkoWIJBT13.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/dev/RajanQABLV18,
+  author    = {Anjana Rajan and
+               Lucy Qin and
+               David W. Archer and
+               Dan Boneh and
+               Tancr{\`{e}}de Lepoint and
+               Mayank Varia},
+  title     = {Callisto: {A} Cryptographic Approach to Detecting Serial Perpetrators
+               of Sexual Misconduct},
+  booktitle = {{COMPASS}},
+  pages     = {49:1--49:4},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+@inproceedings{prio,
+ author = {Henry Corrigan-Gibbs and Dan Boneh},
+ title = {Prio: Private, Robust, and Scalable Computation of Aggregate Statistics},
+ booktitle = {Proceedings of the 14\textsuperscript{th} USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+ year = {2017},
+ isbn = {978-1-931971-37-9},
+ address = {Boston, Massachusetts, USA},
+ pages = {259--282},
+ url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs},
+ publisher = {{USENIX} Association},
+}
+
+@inproceedings{DBLP:conf/uss/ZhengDCPPS21,
+  author    = {Wenting Zheng and
+               Ryan Deng and
+               Weikeng Chen and
+               Raluca Ada Popa and
+               Aurojit Panda and
+               Ion Stoica},
+  editor    = {Michael Bailey and
+               Rachel Greenstadt},
+  title     = {Cerebro: {A} Platform for Multi-Party Cryptographic Collaborative
+               Learning},
+  booktitle = {30th {USENIX} Security Symposium, {USENIX} Security 2021, August 11-13,
+               2021},
+  pages     = {2723--2740},
+  publisher = {{USENIX} Association},
+  year      = {2021},
+  url       = {https://www.usenix.org/conference/usenixsecurity21/presentation/zheng},
+  timestamp = {Thu, 16 Sep 2021 17:32:10 +0200},
+  biburl    = {https://dblp.org/rec/conf/uss/ZhengDCPPS21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{cost_co,
+    author       = {Vivian Fang and
+		    Lloyd Brown and
+		    William Lin and
+		    Wenting Zheng and
+		    Aurojit Panda and
+		    Raluca Ada Popa},
+    title        = {Cost{CO}: An automatic cost modeling framework for secure multi-party computation},
+    booktitle = {IEEE EuroS\&P 22},
+    year         = {2022},
+}
+
+@misc{secrecy-github,
+      title = {{Secrecy Github Repository}},
+      howpublished = {\url{https://github.com/CASP-Systems-BU/Secrecy}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+    
+    @misc{jaegger,
+      title = {{Jaeger: {O}pen source, end-to-end distributed tracing}},
+      howpublished = {\url{https://www.jaegertracing.io}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+        @misc{cilium,
+      title = {{The e{BPF}-powered {C}ilium service mesh}},
+      howpublished = {\url{https://cilium.io/blog/2021/12/01/cilium-service-mesh-beta/}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+        @misc{envoy,
+      title = {{Envoy Proxy: {A}n open-source edge and service proxy, designed for cloud-native applications}},
+      howpublished = {\url{https://www.envoyproxy.io}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+    @inproceedings{coz,
+author = {Curtsinger, Charlie and Berger, Emery D.},
+title = {Coz: Finding Code That Counts with Causal Profiling},
+year = {2015},
+isbn = {9781450338349},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2815400.2815409},
+doi = {10.1145/2815400.2815409},
+abstract = {Improving performance is a central concern for software developers. To locate optimization opportunities, developers rely on software profilers. However, these profilers only report where programs spent their time: optimizing that code may have no impact on performance. Past profilers thus both waste developer time and make it difficult for them to uncover significant optimization opportunities.This paper introduces causal profiling. Unlike past profiling approaches, causal profiling indicates exactly where programmers should focus their optimization efforts, and quantifies their potential impact. Causal profiling works by running performance experiments during program execution. Each experiment calculates the impact of any potential optimization by virtually speeding up code: inserting pauses that slow down all other code running concurrently. The key insight is that this slowdown has the same relative effect as running that line faster, thus "virtually" speeding it up.We present Coz, a causal profiler, which we evaluate on a range of highly-tuned applications: Memcached, SQLite, and the PARSEC benchmark suite. Coz identifies previously unknown optimization opportunities that are both significant and targeted. Guided by Coz, we improve the performance of Memcached by 9\%, SQLite by 25\%, and accelerate six PARSEC applications by as much as 68\%; in most cases, these optimizations involve modifying under 10 lines of code.},
+booktitle = {Proceedings of the 25th Symposium on Operating Systems Principles},
+pages = {184–197},
+numpages = {14},
+location = {Monterey, California},
+series = {SOSP '15}
+}
+
+@article{virtual_coz,
+author = {Pourghassemi, Behnam and Amiri Sani, Ardalan and Chandramowlishwaran, Aparna},
+title = {Only Relative Speed Matters: Virtual Causal Profiling},
+year = {2021},
+issue_date = {December 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {48},
+number = {3},
+issn = {0163-5999},
+url = {https://doi.org/10.1145/3453953.3453979},
+doi = {10.1145/3453953.3453979},
+abstract = {Causal profiling is a novel and powerful profiling technique that quantifies the potential impact of optimizing a code segment on the program runtime. A key application of causal profiling is to analyze what-if scenarios which typically require a large number of experiments. Besides, the execution of a program highly depends on the underlying machine resources, e.g., CPU, network, storage, so profiling results on one device does not translate directly to another. This is a major bottleneck in our ability to perform scalable performance analysis and greatly limits cross-platform software development.In this paper, we address the above challenges by leveraging a unique property of causal profiling: only relative performance of different resources affects the result of causal profiling, not their absolute performance. We first analytically model and prove causal profiling, the missing piece in the seminal paper. Then, we assert the necessary condition to achieve virtual causal profiling on a secondary device. Building upon the theory, we design VCoz, a virtual causal profiler that enables profiling applications on target devices using measurements on the host device. We implement a prototype of VCoz by tuning multiple hardware components to preserve the relative execution speeds of code segments. Our experiments on benchmarks that stress different system resources demonstrate that VCoz can generate causal profiling reports of Nexus 6P (an ARM-based device) on a host MacBook (x86 architecture) with less than 16\% variance.},
+journal = {SIGMETRICS Perform. Eval. Rev.},
+month = {mar},
+pages = {113–119},
+numpages = {7},
+keywords = {causal profiling, virtual infrastructure, mobile devices, arm and x86 architectures, performance analysis}
+}
+
+@inproceedings {hindsight,
+author = {Lei Zhang and Zhiqiang Xie and Vaastav Anand and Ymir Vigfusson and Jonathan Mace},
+title = {The Benefit of Hindsight: Tracing {Edge-Cases} in Distributed Systems},
+booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+year = {2023},
+isbn = {978-1-939133-33-5},
+address = {Boston, MA},
+pages = {321--339},
+url = {https://www.usenix.org/conference/nsdi23/presentation/zhang-lei},
+publisher = {USENIX Association},
+month = apr,
+}
+    
+        @misc{zipkin,
+      title = {{Zipkin: {A} distributed tracing system}},
+      howpublished = {\url{https://zipkin.io}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+@misc{istio,
+      title = {{The Istio service mesh}},
+      howpublished = {\url{https://istio.io}},
+      note = "[Online; accessed April 2022]"
+    }
+
+@misc{aeraki,
+      title = {{The Aeraki service mesh}},
+      howpublished = {\url{https://www.aeraki.net}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+    @misc{linkerd,
+      title = {{The Linkerd service mesh}},
+      howpublished = {\url{https://linkerd.io}},
+      note = "[Online; accessed April 2022]"
+    }
+
+@misc{carbyne,
+      title = {{The Carbyne Stack: Cloud Native Secure Multiparty Computation}},
+      howpublished = {\url{https://carbynestack.io}},
+      note = "[Online; accessed April 2022]"
+    }
+  
+@misc{hyrise,
+      title = {{The Hyrise Project: C++ SQL Parser}},
+      howpublished = {\url{https://github.com/hyrise/sql-parser}},
+      note = "[Online; accessed April 2022]"
+}  
+    
+
+@misc{datavant,
+title = {Datavant: Connecting the world's health data to improve patient outcomes},
+howpublished = {\url{https://datavant.com/}},
+note = "[Online; accessed April 2022]"
+}
+
+@misc{gdpr,
+title = {{General Data Protection Regulation (GDPR)}},
+howpublished = {\url{https://gdpr.eu/tag/gdpr/}},
+note = "[Online; accessed April 2022]"
+}
+
+@misc{hipaa,
+title = {{Health Insurance Portability and Accountability Act (HIPAA)}},
+howpublished = {\url{https://www.cdc.gov/phlp/publications/topic/hipaa.html}},
+note = "[Online; accessed April 2022]"
+}
+
+@misc{ansible,
+      title = {{Red Hat Ansible Automation Platform}},
+      howpublished = {\url{https://www.redhat.com/en/technologies/management/ansible}},
+      note = "[Online; accessed April 2022]"
+    }
+
+@misc{mozilla,
+      title = {{Next steps in privacy-preserving Telemetry with Prio}},
+      howpublished = {\url{https://blog.mozilla.org/security/2019/06/06/next-steps-in-privacy-preserving-telemetry-with-prio/}},
+      note = "[Online; accessed April 2022]"
+    }    
+ 
+
+@misc{aby3_github,
+    author = {Peter Rindal},
+    year = {{The ABY3 Framework for Machine Learning and Database Operations.}},
+    howpublished = {\url{https://github.com/ladnir/aby3}},
+    note = "[Online; accessed April 2022]"
+}
+
+@misc{cape_privacy,
+    title = {{Cape Privacy}},
+    howpublished = {https://capeprivacy.com},
+    note = "[Online; accessed April 2022]"
+}
+
+
+@inproceedings{DBLP:conf/eurocrypt/Pinkas0TY19,
+  author    = {Benny Pinkas and
+               Thomas Schneider and
+               Oleksandr Tkachenko and
+               Avishay Yanai},
+  editor    = {Yuval Ishai and
+               Vincent Rijmen},
+  title     = {Efficient Circuit-Based {PSI} with Linear Communication},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2019 - 38th Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               Darmstadt, Germany, May 19-23, 2019, Proceedings, Part {III}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11478},
+  pages     = {122--153},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-17659-4\_5},
+  doi       = {10.1007/978-3-030-17659-4\_5},
+  timestamp = {Sat, 19 Oct 2019 20:06:11 +0200},
+  biburl    = {https://dblp.org/rec/conf/eurocrypt/Pinkas0TY19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{10.5555/645478.757691, author = {Graefe, Goetz and McKenna, William J.}, title = {The Volcano Optimizer Generator: Extensibility and Efficient Search}, year = {1993}, isbn = {0818635703}, publisher = {IEEE Computer Society}, address = {USA}, booktitle = {Proceedings of the Ninth International Conference on Data Engineering}, pages = {209–218}, numpages = {10} }
+
+
+@article{10.14778/2850583.2850594,
+author = {Leis, Viktor and Gubichev, Andrey and Mirchev, Atanas and Boncz, Peter and Kemper, Alfons and Neumann, Thomas},
+title = {How Good Are Query Optimizers, Really?},
+year = {2015},
+issue_date = {November 2015},
+publisher = {VLDB Endowment},
+volume = {9},
+number = {3},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/2850583.2850594},
+doi = {10.14778/2850583.2850594},
+abstract = {Finding a good join order is crucial for query performance. In this paper, we introduce
+the Join Order Benchmark (JOB) and experimentally revisit the main components in the
+classic query optimizer architecture using a complex, real-world data set and realistic
+multi-join queries. We investigate the quality of industrial-strength cardinality
+estimators and find that all estimators routinely produce large errors. We further
+show that while estimates are essential for finding a good join order, query performance
+is unsatisfactory if the query engine relies too heavily on these estimates. Using
+another set of experiments that measure the impact of the cost model, we find that
+it has much less influence on query performance than the cardinality estimates. Finally,
+we investigate plan enumeration techniques comparing exhaustive dynamic programming
+with heuristic algorithms and find that exhaustive enumeration improves performance
+despite the sub-optimal cardinality estimates.},
+journal = {Proc. VLDB Endow.},
+month = nov,
+pages = {204--215},
+numpages = {12}
+}
+
+@article{bater2018shrinkwrap,
+  title={Shrinkwrap: efficient {SQL} query processing in differentially private data federations},
+  author={Bater, Johes and He, Xi and Ehrich, William and Machanavajjhala, Ashwin and Rogers, Jennie},
+  journal={Proceedings of the VLDB Endowment},
+  volume={12},
+  number={3},
+  pages={307--320},
+  year={2018},
+  publisher={VLDB Endowment}
+}
+
+@article{bater2020saqe,
+  title={SAQE: practical privacy-preserving approximate query processing for data federations},
+  author={Bater, Johes and Park, Yongjoo and He, Xi and Wang, Xiao and Rogers, Jennie},
+  journal={Proceedings of the VLDB Endowment},
+  volume={13},
+  number={12},
+  pages={2691--2705},
+  year={2020},
+  publisher={VLDB Endowment}
+}
+
+@inproceedings{DBLP:conf/uss/LeeJFTP20,
+  author    = {Dayeol Lee and
+               Dongha Jung and
+               Ian T. Fang and
+               Chia{-}che Tsai and
+               Raluca Ada Popa},
+  editor    = {Srdjan Capkun and
+               Franziska Roesner},
+  title     = {An Off-Chip Attack on Hardware Enclaves via the Memory Bus},
+  booktitle = {29th {USENIX} Security Symposium, {USENIX} Security 2020, August 12-14,
+               2020},
+  pages     = {487--504},
+  publisher = {{USENIX} Association},
+  year      = {2020},
+  url       = {https://www.usenix.org/conference/usenixsecurity20/presentation/lee-dayeol},
+  timestamp = {Fri, 29 Jan 2021 22:08:57 +0100},
+  biburl    = {https://dblp.org/rec/conf/uss/LeeJFTP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/uss/BulckMWGKPSWYS18,
+  author    = {Jo Van Bulck and
+               Marina Minkin and
+               Ofir Weisse and
+               Daniel Genkin and
+               Baris Kasikci and
+               Frank Piessens and
+               Mark Silberstein and
+               Thomas F. Wenisch and
+               Yuval Yarom and
+               Raoul Strackx},
+  editor    = {William Enck and
+               Adrienne Porter Felt},
+  title     = {Foreshadow: Extracting the Keys to the Intel {SGX} Kingdom with Transient
+               Out-of-Order Execution},
+  booktitle = {27th {USENIX} Security Symposium, {USENIX} Security 2018, Baltimore,
+               MD, USA, August 15-17, 2018},
+  pages     = {991--1008},
+  publisher = {{USENIX} Association},
+  year      = {2018},
+  url       = {https://www.usenix.org/conference/usenixsecurity18/presentation/bulck},
+  timestamp = {Wed, 31 Oct 2018 06:33:27 +0100},
+  biburl    = {https://dblp.org/rec/conf/uss/BulckMWGKPSWYS18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings {Poddar2021Senate,
+title = {Senate: A Maliciously-Secure {MPC} Platform for Collaborative Analytics},
+  author={Poddar, Rishabh and Kalra, Sukrit and Yanai, Avishay and Deng, Ryan and Popa, Raluca Ada and Hellerstein, Joseph M},
+booktitle = {30th {USENIX} Security Symposium ({USENIX} Security 21)},
+year = {2021},
+address = {Vancouver, B.C.},
+url = {https://www.usenix.org/conference/usenixsecurity21/presentation/poddar},
+publisher = {{USENIX} Association},
+month = aug,
+}
+
+@inproceedings{DBLP:conf/sp/MishraPCCP18,
+  author    = {Pratyush Mishra and
+               Rishabh Poddar and
+               Jerry Chen and
+               Alessandro Chiesa and
+               Raluca Ada Popa},
+  title     = {Oblix: An Efficient Oblivious Search Index},
+  booktitle = {2018 {IEEE} Symposium on Security and Privacy, {SP} 2018, Proceedings,
+               21-23 May 2018, San Francisco, California, {USA}},
+  pages     = {279--296},
+  publisher = {{IEEE} Computer Society},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/SP.2018.00045},
+  doi       = {10.1109/SP.2018.00045},
+  timestamp = {Wed, 16 Oct 2019 14:14:51 +0200},
+  biburl    = {https://dblp.org/rec/conf/sp/MishraPCCP18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{10.1145/2976749.2978351,
+author = {Grubbs, Paul and McPherson, Richard and Naveed, Muhammad and Ristenpart, Thomas and Shmatikov, Vitaly},
+title = {Breaking Web Applications Built On Top of Encrypted Data},
+year = {2016},
+isbn = {9781450341394},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2976749.2978351},
+doi = {10.1145/2976749.2978351},
+abstract = {We develop a systematic approach for analyzing client-server applications that aim to hide sensitive user data from untrusted servers. We then apply it to Mylar, a framework that uses multi-key searchable encryption (MKSE) to build Web applications on top of encrypted data.We demonstrate that (1) the Popa-Zeldovich model for MKSE does not imply security against either passive or active attacks; (2) Mylar-based Web applications reveal users' data and queries to passive and active adversarial servers; and (3) Mylar is generically insecure against active attacks due to system design flaws. Our results show that the problem of securing client-server applications against actively malicious servers is challenging and still unsolved.We conclude with general lessons for the designers of systems that rely on property-preserving or searchable encryption to protect data from untrusted servers.},
+booktitle = {Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1353–1364},
+numpages = {12},
+keywords = {searchable encryption, leakage, application security, provable security},
+location = {Vienna, Austria},
+series = {CCS '16}
+}
+
+@article{10.1016/j.ins.2013.11.021,
+author = {Liu, Chang and Zhu, Liehuang and Wang, Mingzhong and Tan, Yu-An},
+title = {Search Pattern Leakage in Searchable Encryption: Attacks and New Construction},
+year = {2014},
+issue_date = {May, 2014},
+publisher = {Elsevier Science Inc.},
+address = {USA},
+volume = {265},
+issn = {0020-0255},
+url = {https://doi.org/10.1016/j.ins.2013.11.021},
+doi = {10.1016/j.ins.2013.11.021},
+abstract = {Searching on remote encrypted data (commonly known as searchable encryption) has become an important issue in secure data outsourcing, since it allows users to outsource encrypted data to an untrusted third party while maintains the capability of keyword search on the data. Searchable encryption can be achieved using the classical method called oblivious RAM, but the resultant schemes are too inefficient to be applied in the real-world scenarios (e.g., cloud computing). Recently, a number of efficient searchable encryption schemes have been proposed under weaker security guarantees. Such schemes, however, still leak statistical information about the users' search pattern. In this paper, we first present two concrete attack methods to show that the search pattern leakage will result in such a situation: an adversary who has some auxiliary knowledge can uncover the underlying keywords of user queries. To address this issue, we then develop a grouping-based construction (GBC) to transform an existing searchable encryption scheme to a new scheme hiding the search pattern. Finally, experiments based on the real-world dataset demonstrate the effectiveness of our attack methods and the feasibility of our construction.},
+journal = {Inf. Sci.},
+month = {may},
+pages = {176–188},
+numpages = {13},
+keywords = {Search pattern, Searchable encryption, Grouping-based construction, Fake query, Cloud computing}
+}
+
+@inproceedings{DBLP:conf/secrypt/GiraudAB017,
+  author    = {Matthieu Giraud and
+               Alexandre Anzala{-}Yamajako and
+               Olivier Bernard and
+               Pascal Lafourcade},
+  editor    = {Pierangela Samarati and
+               Mohammad S. Obaidat and
+               Enrique Cabello},
+  title     = {Practical Passive Leakage-abuse Attacks Against Symmetric Searchable
+               Encryption},
+  booktitle = {Proceedings of the 14th International Joint Conference on e-Business
+               and Telecommunications {(ICETE} 2017) - Volume 4: SECRYPT, Madrid,
+               Spain, July 24-26, 2017},
+  pages     = {200--211},
+  publisher = {SciTePress},
+  year      = {2017},
+  url       = {https://doi.org/10.5220/0006461202000211},
+  doi       = {10.5220/0006461202000211},
+  timestamp = {Sun, 25 Jul 2021 11:53:30 +0200},
+  biburl    = {https://dblp.org/rec/conf/secrypt/GiraudAB017.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{10.1145/2810103.2813700,
+author = {Cash, David and Grubbs, Paul and Perry, Jason and Ristenpart, Thomas},
+title = {Leakage-Abuse Attacks Against Searchable Encryption},
+year = {2015},
+isbn = {9781450338325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2810103.2813700},
+doi = {10.1145/2810103.2813700},
+abstract = {Schemes for secure outsourcing of client data with search capability are being increasingly marketed and deployed. In the literature, schemes for accomplishing this efficiently are called Searchable Encryption (SE). They achieve high efficiency with provable security by means of a quantifiable leakage profile. However, the degree to which SE leakage can be exploited by an adversary is not well understood.To address this, we present a characterization of the leakage profiles of in-the-wild searchable encryption products and SE schemes in the literature, and present attack models based on an adversarial server's prior knowledge. Then we empirically investigate the security of searchable encryption by providing query recovery and plaintext recovery attacks that exploit these leakage profiles. We term these leakage-abuse attacks and demonstrate their effectiveness for varying leakage profiles and levels of server knowledge, for realistic scenarios. Amongst our contributions are realistic active attacks which have not been previously explored.},
+booktitle = {Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security},
+pages = {668–679},
+numpages = {12},
+keywords = {vulnerabilities, searchable encryption, leakage},
+location = {Denver, Colorado, USA},
+series = {CCS '15}
+}
+
+@inproceedings{kafedb,
+  title={Encrypted Databases: From Theory to Systems},
+  author={Zhao, Zheguang and Kamara, Seny and Moataz, Tarik and Zdonik Stan},
+  booktitle={Proceedings of the 11th Annual Conference on Innovative Data Systems Research},
+  pages={},
+  year={2021}
+}
+
+ 
+ 
+
+
+@inproceedings{wong2014secure,
+  title={Secure query processing with data interoperability in a cloud database environment},
+  author={Wong, Wai Kit and Kao, Ben and Cheung, David Wai Lok and Li, Rongbin and Yiu, Siu Ming},
+  booktitle={Proceedings of the 2014 ACM SIGMOD international conference on Management of data},
+  pages={1395--1406},
+  year={2014}
+}
+
+@article{he2015sdb,
+  title={Sdb: A secure query processing system with data interoperability},
+  author={He, Zhian and Wong, Wai Kit and Kao, Ben and Cheung, David Wai Lok and Li, Rongbin and Yiu, Siu Ming and Lo, Eric},
+  journal={Proceedings of the VLDB Endowment},
+  volume={8},
+  number={12},
+  pages={1876--1879},
+  year={2015},
+  publisher={VLDB Endowment}
+}
+
+@book{10.5555/556863,
+author = {Ramakrishnan, Raghu and Gehrke, Johannes},
+title = {Database Management Systems},
+year = {2000},
+isbn = {0072440422},
+publisher = {McGraw-Hill, Inc.},
+address = {USA},
+edition = {2nd},
+abstract = {From the Publisher:Database Management Systems (DBMS) is a must for any course in database systems or file organization. DBMS provides a hands-on approach to relational database systems, with an emphasis on practical topics such as indexing methods, SQL, and database design. New to this edition are the early coverage of the ER model, new chapters on Internet databases, data mining, and spatial databases, and a new supplement on practical SQL assignments (with solutions for instructors' use). Many other chapters have been reorganized or expanded to provide up-to-date coverage.}
+}
+
+@book{10.5555/280635,
+author = {Knuth, Donald E.},
+title = {The Art of Computer Programming,  Volume 3: (2nd Ed.) Sorting and Searching},
+year = {1998},
+isbn = {0201896850},
+publisher = {Addison Wesley Longman Publishing Co., Inc.},
+address = {USA}
+}
+
+@article{DBLP:journals/iacr/JonssonKU11,
+  author    = {Kristj{\'{a}}n Valur J{\'{o}}nsson and
+               Gunnar Kreitz and
+               Misbah Uddin},
+  title     = {Secure Multi-Party Sorting and Applications},
+  journal   = {{IACR} Cryptol. ePrint Arch.},
+  volume    = {2011},
+  pages     = {122},
+  year      = {2011},
+  url       = {http://eprint.iacr.org/2011/122},
+  timestamp = {Mon, 11 May 2020 15:54:41 +0200},
+  biburl    = {https://dblp.org/rec/journals/iacr/JonssonKU11.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Volgushev2019Conclave,
+  author    = {Nikolaj Volgushev and
+               Malte Schwarzkopf and
+               Ben Getchell and
+               Mayank Varia and
+               Andrei Lapets and
+               Azer Bestavros},
+  editor    = {George Candea and
+               Robbert van Renesse and
+               Christof Fetzer},
+  title     = {Conclave: secure multi-party computation on big data},
+  booktitle = {Proceedings of the Fourteenth EuroSys Conference 2019, Dresden, Germany,
+               March 25-28, 2019},
+  pages     = {3:1--3:18},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3302424.3303982},
+  doi       = {10.1145/3302424.3303982},
+  timestamp = {Thu, 28 Mar 2019 13:37:53 +0100},
+  biburl    = {https://dblp.org/rec/conf/eurosys/VolgushevSGVLB19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/esorics/BogdanovLW08,
+  author    = {Dan Bogdanov and
+               Sven Laur and
+               Jan Willemson},
+  editor    = {Sushil Jajodia and
+               Javier L{\'{o}}pez},
+  title     = {Sharemind: {A} Framework for Fast Privacy-Preserving Computations},
+  booktitle = {Computer Security - {ESORICS} 2008, 13th European Symposium on Research
+               in Computer Security, M{\'{a}}laga, Spain, October 6-8, 2008.
+               Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5283},
+  pages     = {192--206},
+  publisher = {Springer},
+  year      = {2008},
+  url       = {https://doi.org/10.1007/978-3-540-88313-5\_13},
+  doi       = {10.1007/978-3-540-88313-5\_13},
+  timestamp = {Thu, 29 Aug 2019 08:09:59 +0200},
+  biburl    = {https://dblp.org/rec/conf/esorics/BogdanovLW08.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sp/FullerVYSHGSMC17,
+  author    = {Benjamin Fuller and
+               Mayank Varia and
+               Arkady Yerukhimovich and
+               Emily Shen and
+               Ariel Hamlin and
+               Vijay Gadepally and
+               Richard Shay and
+               John Darby Mitchell and
+               Robert K. Cunningham},
+  title     = {SoK: Cryptographically Protected Database Search},
+  booktitle = {2017 {IEEE} Symposium on Security and Privacy, {SP} 2017, San Jose,
+               CA, USA, May 22-26, 2017},
+  pages     = {172--191},
+  publisher = {{IEEE} Computer Society},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/SP.2017.10},
+  doi       = {10.1109/SP.2017.10},
+  timestamp = {Wed, 16 Oct 2019 14:14:51 +0200},
+  biburl    = {https://dblp.org/rec/conf/sp/FullerVYSHGSMC17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{clostridium,
+  author    = {Jung Hoon Song and
+               You Sun Kim},
+  title     = {Recurrent Clostridium difficile Infection: Risk Factors, Treatment, and Prevention.},
+  journal   = {Gut and liver},
+  volume    = {13},
+  number    = {1},
+  pages     = {16-24},
+  year      = {2019},
+  url       = {},
+  doi       = {10.5009/gnl18071},
+  timestamp = {},
+  biburl    = {},
+  bibsource = {}
+}
+
+@techreport{BUCS-TR-2021-001,
+  title={Secrecy: Secure collaborative analytics on secret-shared data},
+  author={John Liagouris and Vasiliki Kalavri and Muhammad Faisal and Mayank Varia},
+  year={2021},
+  month={February},
+  institution={Boston University, Department of Computer Science},
+  number={BUCS-TR-2021-001},
+  url = {https://hdl.handle.net/2144/41958}
+}
+
+@misc{liagouris2021secrecy,
+      title={Secrecy: Secure collaborative analytics on secret-shared data}, 
+      author={John Liagouris and Vasiliki Kalavri and Muhammad Faisal and Mayank Varia},
+      year={2021},
+      eprint={2102.01048},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB}
+}
+
+@misc{pcori,
+    author = {{Patient-Centered Outcomes Research Institute (PCORI)}},
+    title = {Characterizing the Effects of Recurrent Clostridium Difficile Infection on Patients},
+    howpublished = {IRB Protocol, ORA: 14122},
+    year = {2015},
+    note = {},
+}
+
+@misc{cloud_ehr,
+    author = {{Continuun}},
+    title = {{5 Advantages of a cloud-based EHR}},
+    howpublished = {https://www.carecloud.com/continuum/5-advantages-of-a-cloud-based-ehr-for-large-practices/},
+    year = {2015},
+    note = {},
+}
+
+@Article{info:doi/10.2196/jmir.1867,
+author="Kuo, Alex Mu-Hsing",
+title="Opportunities and Challenges of Cloud Computing to Improve Health Care Services",
+journal="J Med Internet Res",
+year="2011",
+month="Sep",
+day="21",
+volume="13",
+number="3",
+pages="e67",
+keywords="Health care; electronic health record; cloud computing; bioinformatics; quality improvement",
+issn="1438-8871",
+doi="10.2196/jmir.1867",
+url="http://www.jmir.org/2011/3/e67/",
+url="https://doi.org/10.2196/jmir.1867",
+url="http://www.ncbi.nlm.nih.gov/pubmed/21937354"
+}
+
+
+
+@misc{smcql-repository,
+      title = {{SMCQL Github Repository}},
+      howpublished = {\url{https://github.com/smcql/smcql}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+@misc{mpi,
+      title = {{Message Passing Interface (MPI)}},
+      howpublished = {\url{https://www.mcs.anl.gov/research/projects/mpi/standard.html}},
+      note = "[Online; accessed April 2022]"
+    }
+    
+ @misc{sok-project,
+      title = {{SoK: General-Purpose Compilers for Secure Multi-party Computation}},
+      howpublished = {\url{https://github.com/MPC-SoK/frameworks/blob/master/emp/sh\_test/test/xtabs.cpp}},
+      note = "[Online; accessed April 2022]"
+    }
+
+
+
+@inproceedings{ArasuK2014Oblivious,
+  author    = {Arvind Arasu and
+               Raghav Kaushik},
+  editor    = {Nicole Schweikardt and
+               Vassilis Christophides and
+               Vincent Leroy},
+  title     = {Oblivious Query Processing},
+  booktitle = {Proc. 17th International Conference on Database Theory (ICDT), Athens,
+               Greece, March 24-28, 2014},
+  pages     = {26--37},
+  publisher = {OpenProceedings.org},
+  year      = {2014},
+  url       = {https://doi.org/10.5441/002/icdt.2014.07},
+  doi       = {10.5441/002/icdt.2014.07},
+  timestamp = {Tue, 16 Jan 2018 17:46:10 +0100},
+  biburl    = {https://dblp.org/rec/conf/icdt/ArasuK14.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{eskandarian2019oblidb,
+  title={ObliDB: oblivious query processing for secure databases},
+  author={Eskandarian, Saba and Zaharia, Matei},
+  journal={Proceedings of the VLDB Endowment},
+  volume={13},
+  number={2},
+  pages={169--183},
+  year={2019},
+  publisher={VLDB Endowment}
+}
+
+@article{Krastnikov2020Efficient,
+  author    = {Simeon Krastnikov and
+               Florian Kerschbaum and
+               Douglas Stebila},
+  title     = {Efficient Oblivious Database Joins},
+  journal   = {Proc. {VLDB} Endow.},
+  volume    = {13},
+  number    = {11},
+  pages     = {2132--2145},
+  year      = {2020},
+  url       = {http://www.vldb.org/pvldb/vol13/p2132-krastnikov.pdf},
+  timestamp = {Wed, 12 Aug 2020 22:10:58 +0200},
+  biburl    = {https://dblp.org/rec/journals/pvldb/KrastnikovKS20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{Mohassel2019Fast,
+    author = {Payman Mohassel and Peter Rindal and Mike Rosulek},
+    title = {Fast Database Joins for Secret Shared Data},
+    booktitle = {{ACM} Conference on Computer and Communications Security},
+    publisher = {{ACM}},
+    year      = {2020},
+}
+
+@inproceedings{DBLP:conf/ccs/MohasselRR20,
+  author    = {Payman Mohassel and
+               Peter Rindal and
+               Mike Rosulek},
+  editor    = {Jay Ligatti and
+               Xinming Ou and
+               Jonathan Katz and
+               Giovanni Vigna},
+  title     = {Fast Database Joins and {PSI} for Secret Shared Data},
+  booktitle = {{CCS} '20: 2020 {ACM} {SIGSAC} Conference on Computer and Communications
+               Security, Virtual Event, USA, November 9-13, 2020},
+  pages     = {1271--1287},
+  publisher = {{ACM}},
+  year      = {2020},
+  url       = {https://doi.org/10.1145/3372297.3423358},
+  doi       = {10.1145/3372297.3423358},
+  timestamp = {Tue, 10 Nov 2020 20:00:47 +0100},
+  biburl    = {https://dblp.org/rec/conf/ccs/MohasselRR20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{zheng2017opaque,
+  title={Opaque: An oblivious and encrypted distributed analytics platform},
+  author={Zheng, Wenting and Dave, Ankur and Beekman, Jethro G and Popa, Raluca Ada and Gonzalez, Joseph E and Stoica, Ion},
+  booktitle={14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)},
+  pages={283--298},
+  year={2017}
+}
+
+@inproceedings{LapetsAIQVBJ19,
+  author    = {Andrei Lapets and
+               Kinan Dak Albab and
+               Rawane Issa and
+               Lucy Qin and
+               Mayank Varia and
+               Azer Bestavros and
+               Frederick Jansen},
+  title     = {Role-Based Ecosystem for the Design, Development, and Deployment of
+               Secure Multi-Party Data Analytics Applications},
+  booktitle = {SecDev},
+  pages     = {129--140},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+
+@inproceedings{FrederiksenN13,
+  author    = {Tore Kasper Frederiksen and
+               Jesper Buus Nielsen},
+  title     = {Fast and Maliciously Secure Two-Party Computation Using the {GPU}},
+  booktitle = {{ACNS}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7954},
+  pages     = {339--356},
+  publisher = {Springer},
+  year      = {2013}
+}
+
+@inproceedings{FrederiksenJN14,
+  author    = {Tore Kasper Frederiksen and
+               Thomas P. Jakobsen and
+               Jesper Buus Nielsen},
+  title     = {Faster Maliciously Secure Two-Party Computation Using the {GPU}},
+  booktitle = {{SCN}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8642},
+  pages     = {358--379},
+  publisher = {Springer},
+  year      = {2014}
+}
+
+@inproceedings{FangIL17,
+  author    = {Xin Fang and
+               Stratis Ioannidis and
+               Miriam Leeser},
+  title     = {Secure Function Evaluation Using an {FPGA} Overlay Architecture},
+  booktitle = {{FPGA}},
+  pages     = {257--266},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+
+@article{FangIL19,
+  author    = {Xin Fang and
+               Stratis Ioannidis and
+               Miriam Leeser},
+  title     = {{SIFO:} Secure Computational Infrastructure Using {FPGA} Overlays},
+  journal   = {Int. J. Reconfigurable Comput.},
+  volume    = {2019},
+  pages     = {1439763:1--1439763:18},
+  year      = {2019}
+}
+
+@inproceedings{SonghoriZD0SK16,
+  author    = {Ebrahim M. Songhori and
+               Shaza Zeitouni and
+               Ghada Dessouky and
+               Thomas Schneider and
+               Ahmad{-}Reza Sadeghi and
+               Farinaz Koushanfar},
+  title     = {GarbledCPU: a {MIPS} processor for secure computation in hardware},
+  booktitle = {{DAC}},
+  pages     = {73:1--73:6},
+  publisher = {{ACM}},
+  year      = {2016}
+}
+
+@inproceedings{HussainRGK18,
+  author    = {Siam U. Hussain and
+               Bita Darvish Rouhani and
+               Mohammad Ghasemzadeh and
+               Farinaz Koushanfar},
+  title     = {MAXelerator: {FPGA} accelerator for privacy preserving multiply-accumulate
+               {(MAC)} on cloud servers},
+  booktitle = {{DAC}},
+  pages     = {33:1--33:6},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+@inproceedings{SonghoriRHSK19,
+  author    = {Ebrahim M. Songhori and
+               M. Sadegh Riazi and
+               Siam U. Hussain and
+               Ahmad{-}Reza Sadeghi and
+               Farinaz Koushanfar},
+  title     = {{ARM2GC:} Succinct Garbled Processor for Secure Computation},
+  booktitle = {{DAC}},
+  pages     = {112},
+  publisher = {{ACM}},
+  year      = {2019}
+}
+
+@inproceedings{opaque,
+ author = {Wenting Zheng and Ankur Dave and Jethro G. Beekman and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+ title = {Opaque: An Oblivious and Encrypted Distributed Analytics Platform},
+ booktitle = {Proceedings of the 14\textsuperscript{th} USENIX Symposium on Networked Systems Design and Implementation (NSDI)},
+ year = {2017},
+ isbn = {978-1-931971-37-9},
+ address = {Boston, Massachusetts, USA},
+ pages = {283--298},
+ url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zheng},
+}
+
+@inproceedings{kerschbaum-rewriting,
+ author = {Kerschbaum, Florian},
+ title = {Expression Rewriting for Optimizing Secure Computation},
+ booktitle = {Proceedings of the 3\textsuperscript{rd} ACM Conference on Data and Application Security and Privacy (CODASPY)},
+ year = {2013},
+ isbn = {978-1-4503-1890-7},
+ location = {San Antonio, Texas, USA},
+ pages = {49--58},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2435349.2435356},
+ doi = {10.1145/2435349.2435356},
+ acmid = {2435356},
+ keywords = {optimization, programming, secure two-party computation},
+}
+
+@inproceedings{dstress,
+ author = {Papadimitriou, Antonis and Narayan, Arjun and Haeberlen, Andreas},
+ title = {DStress: Efficient Differentially Private Computations on Distributed Data},
+ booktitle = {Proceedings of the 12\textsuperscript{th} European Conference on Computer Systems (EuroSys)},
+ year = {2017},
+ isbn = {978-1-4503-4938-3},
+ location = {Belgrade, Serbia},
+ pages = {560--574},
+ numpages = {15},
+ url = {http://doi.acm.org/10.1145/3064176.3064218},
+ doi = {10.1145/3064176.3064218},
+ acmid = {3064218},
+}
+
+@inproceedings{djoin,
+ author = {Narayan, Arjun and Haeberlen, Andreas},
+ title = {DJoin: Differentially Private Join Queries over Distributed Databases},
+ booktitle = {Proceedings of the 10\textsuperscript{th} USENIX Conference on Operating Systems Design and Implementation (OSDI)},
+ year = {2012},
+ month = oct,
+ isbn = {978-1-931971-96-6},
+ location = {Hollywood, California, USA},
+ pages = {149--162},
+ numpages = {14},
+ url = {http://dl.acm.org/citation.cfm?id=2387880.2387895},
+ acmid = {2387895},
+}
+
+@inproceedings{DoernerES16,
+  author    = {Jack Doerner and
+               David Evans and
+               Abhi Shelat},
+  title     = {Secure Stable Matching at Scale},
+  booktitle = {Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security},
+  pages     = {1602--1613},
+  year      = {2016},
+  doi       = {10.1145/2976749.2978373},
+}
+
+@inproceedings{kamara2014scaling,
+  title={Scaling private set intersection to billion-element sets},
+  author={Kamara, Seny and Mohassel, Payman and Raykova, Mariana and Sadeghian, Saeed},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={195--215},
+  year={2014},
+  organization={Springer}
+}
+
+@inproceedings{wysteria,
+ author = {Rastogi, Aseem and Hammer, Matthew A. and Hicks, Michael},
+ title = {Wysteria: A Programming Language for Generic, Mixed-Mode Multiparty Computations},
+ booktitle = {Proceedings of the 2014 IEEE Symposium on Security and Privacy},
+ year = {2014},
+ isbn = {978-1-4799-4686-0},
+ pages = {655--670},
+ numpages = {16},
+ url = {http://dx.doi.org/10.1109/SP.2014.48},
+ doi = {10.1109/SP.2014.48},
+ acmid = {2650775},
+ address = {Washington, DC, USA},
+ keywords = {Secure multi-party computation, Functional language, Dependent type system},
+}
+
+@article{systemic-risk-measures,
+ author = {Dimitrios Bisias and Mark Flood and Andrew W. Lo and Stavros Valavanis},
+ title = {A Survey of Systemic Risk Analytics},
+ journal = {Annual Review of Financial Economics},
+ volume = {4},
+ number = {1},
+ pages = {255-296},
+ year = {2012},
+ doi = {10.1146/annurev-financial-110311-101754},
+ url = {https://doi.org/10.1146/annurev-financial-110311-101754},
+ eprint = {https://doi.org/10.1146/annurev-financial-110311-101754},
+}
+
+@inproceedings{scalable-linear-reg-mpc,
+ author = {Gasc\'{o}n, Adri\`{a} and Schoppmann, Phillipp and Balle, Borja and Raykova, Mariana and Doerner, Jack and Zahur, Samee and Evans, David},
+ year = {2017},
+ month = oct,
+ pages = {345--364},
+ title = {Privacy Preserving Distributed Linear Regression on High-Dimensional Data},
+ booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)}
+}
+
+@misc{obliv-c,
+    author = {Samee Zahur and David Evans},
+    title = {Obliv-C: A Language for Extensible Data-Oblivious Computation},
+  journal   = {{IACR} Cryptology ePrint Archive},
+  eprint={2015/1153},
+  archivePrefix={IACR},
+    year = {2015},
+    note = {\url{http://eprint.iacr.org/2015/1153}},
+}
+
+@inproceedings{mpc-sorting,
+ author = {Kristj\'{a}n Valur Jónsson and Gunnar Kreitz and Misbah Uddin},
+ title = {Secure multi-party sorting and applications},
+ booktitle = {Proceedings of the 9\textsuperscript{th} International Conference on Applied Cryptography and Network Security (ACNS)},
+ year = {2011},
+ month = jun,
+ location = {Nerja (Malaga), Spain},
+}
+
+@inproceedings{yao-garbled-circuits,
+ author = {Yao, Andrew C.},
+ title = {Protocols for Secure Computations},
+ booktitle = {Proceedings of the 23\textsuperscript{rd} Annual Symposium on Foundations of Computer Science (AFCS)},
+ year = {1982},
+ pages = {160--164},
+ numpages = {5},
+ url = {http://dx.doi.org/10.1109/SFCS.1982.88},
+ doi = {10.1109/SFCS.1982.88},
+ acmid = {1382751},
+ address = {Washington, DC, USA},
+}
+
+@inproceedings{cryptdb,
+ author = {Popa, Raluca Ada and Redfield, Catherine M. S. and Zeldovich, Nickolai and Balakrishnan, Hari},
+ title = {CryptDB: Protecting Confidentiality with Encrypted Query Processing},
+ booktitle = {Proceedings of the 23\textsuperscript{rd} ACM Symposium on Operating Systems Principles (SOSP)},
+ year = {2011},
+ isbn = {978-1-4503-0977-6},
+ location = {Cascais, Portugal},
+ pages = {85--100},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/2043556.2043566},
+ doi = {10.1145/2043556.2043566},
+ acmid = {2043566},
+}
+
+@inproceedings{spdz,
+ author = {Damg{\aa}rd, Ivan and Keller, Marcel and Larraia, Enrique and Pastro, Valerio and Scholl, Peter and Smart, Nigel P.},
+ title = {Practical Covertly Secure MPC for Dishonest Majority -- Or: Breaking the SPDZ Limits},
+ booktitle = {Proceedings of the 18\textsuperscript{th} European Symposium on Research in Computer Security (ESORICS)},
+ location = {Egham, United Kingdom},
+ month = sept,
+ year = {2013},
+ publisher = {Springer Berlin/Heidelberg},
+ pages = {1--18},
+ isbn = {978-3-642-40203-6},
+ doi = {10.1007/978-3-642-40203-6_1},
+ url = {http://dx.doi.org/10.1007/978-3-642-40203-6_1}
+}
+
+@article{practical-dp-for-sql,
+  author    = {Noah M. Johnson and Joseph P. Near and Dawn Song},
+  title     = {Practical Differential Privacy for {SQL} Queries Using Elastic Sensitivity},
+  journal   = {CoRR},
+  volume    = {abs/1706.09479},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1706.09479},
+  archivePrefix = {arXiv},
+  eprint    = {1706.09479},
+}
+
+@inproceedings{billion-gates-mpc,
+ author={Toshinori Araki and Assi Barak and Jun Furukawa and Tamar Lichter and Yehuda Lindell and Ariel Nof and Kazuma Ohara and Adi Watzman and Or Weinstein},
+ booktitle = {Proceedings of the 38\textsuperscript{th} IEEE Symposium on Security and Privacy (SP)},
+ title = {Optimized Honest-Majority MPC for Malicious Adversaries -- Breaking the 1 Billion-Gate Per Second Barrier},
+ year = 2017,
+ volume = {},
+ number = {},
+ pages = {843--862},
+ doi = {10.1109/SP.2017.15},
+ month = may,
+}
+
+@article{ArcherBPP16,
+  author    = {David W. Archer and
+               Dan Bogdanov and
+               Benny Pinkas and
+               Pille Pullonen},
+  title     = {Maturity and Performance of Programmable Secure Computation},
+  journal   = {{IEEE} Security {\&} Privacy},
+  volume    = {14},
+  number    = {5},
+  pages     = {48--56},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/MSP.2016.97},
+  doi       = {10.1109/MSP.2016.97},
+}
+
+@article{student-taxes,
+  author = {Dan Bogdanov and Liina Kamm and Baldur Kubo and Reimo Rebane and Ville Sokk and Riivo Talviste},
+  title = {{Students and Taxes: a Privacy-Preserving Study Using Secure Computation}},
+  journal = {Proceedings on Privacy Enhancing Technologies (PoPETS)},
+  volume = {2016},
+  number = {3},
+  pages = {117--135},
+  year = {2016},
+  url = {http://www.degruyter.com/view/j/popets.2016.2016.issue-3/popets-2015-0019/popets-2016-0019.xml},
+}
+
+@inproceedings{BogdanovJSV15,
+  author    = {Dan Bogdanov and
+               Marko J{\~{o}}emets and
+               Sander Siim and
+               Meril Vaht},
+  title     = {How the Estonian Tax and Customs Board Evaluated a Tax Fraud Detection
+               System Based on Secure Multi-party Computation},
+  booktitle = {Proceedings of the 19\textsuperscript{th} International Conference on
+               Financial Cryptography and Data Security},
+  location  = {San Juan, Puerto Rico},
+  month     = jan,
+  pages     = {227--234},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-662-47854-7_14},
+  doi       = {10.1007/978-3-662-47854-7_14},
+  timestamp = {Fri, 26 May 2017 00:50:27 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/fc/BogdanovJSV15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{RabinB89,
+  author    = {Tal Rabin and
+               Michael Ben{-}Or},
+  title     = {Verifiable Secret Sharing and Multiparty Protocols with Honest Majority
+               (Extended Abstract)},
+  booktitle = {Proceedings of the 21\textsuperscript{st} Annual {ACM} Symposium on Theory of Computing (TC)},
+  pages     = {73--85},
+  year      = {1989},
+  month     = may,
+  location  = {Seattle, Washington, {USA}},
+  url       = {http://doi.acm.org/10.1145/73007.73014},
+  doi       = {10.1145/73007.73014},
+  timestamp = {Mon, 17 Oct 2011 17:25:06 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/stoc/RabinB89},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@incollection{mpcgoeslive,
+ author = {Bogetoft, Peter and Christensen, Dan Lund and Damg{\aa}rd, Ivan and Geisler, Martin and Jakobsen, Thomas and Kr{\o}igaard, Mikkel and Nielsen, Janus Dam and Nielsen, Jesper Buus and Nielsen, Kurt and Pagter, Jakob and Schwartzbach, Michael and Toft, Tomas},
+ chapter = {Secure Multiparty Computation Goes Live},
+ title = {Financial Cryptography and Data Security},
+ editor = {Dingledine, Roger and Golle, Philippe},
+ year = {2009},
+ isbn = {978-3-642-03548-7},
+ pages = {325--343},
+ numpages = {19},
+ url = {http://dx.doi.org/10.1007/978-3-642-03549-4_20},
+ doi = {10.1007/978-3-642-03549-4_20},
+ acmid = {1602018},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+}
+
+@article{BestavrosLV17,
+  author    = {Azer Bestavros and
+               Andrei Lapets and
+               Mayank Varia},
+  title     = {User-centric distributed solutions for privacy-preserving analytics},
+  journal   = {Communications of the {ACM}},
+  volume    = {60},
+  number    = {2},
+  pages     = {37--39},
+  year      = {2017},
+  url       = {http://doi.acm.org/10.1145/3029603},
+  doi       = {10.1145/3029603},
+}
+
+@article{lindell2009secure,
+  title={Secure multiparty computation for privacy-preserving data mining},
+  author={Lindell, Yehuda and Pinkas, Benny},
+  journal={Journal of Privacy and Confidentiality},
+  volume={1},
+  number={1},
+  pages={5},
+  year={2009}
+}
+
+@inproceedings{gmw,
+  author    = {Oded Goldreich and
+               Silvio Micali and
+               Avi Wigderson},
+  title     = {How to Play any Mental Game or {A} Completeness Theorem for Protocols
+               with Honest Majority},
+  booktitle = {Proceedings of the 19\textsuperscript{th} Annual {ACM} Symposium on Theory of Computing (TC)},
+  location  = {New York City, New York, {USA}},
+  pages     = {218--229},
+  year      = {1987},
+}
+
+@inproceedings{bgw,
+  author    = {Michael Ben{-}Or and
+               Shafi Goldwasser and
+               Avi Wigderson},
+  title     = {Completeness Theorems for Non-Cryptographic Fault-Tolerant Distributed
+               Computation (Extended Abstract)},
+  booktitle = {Proceedings of the 20\textsuperscript{th} Annual {ACM} Symposium on Theory of Computing (TC)},
+  location  = {Chicago, Illinois, {USA}},
+  pages     = {1--10},
+  year      = {1988},
+  month     = may,
+}
+
+@inproceedings{ArakiFLNO16,
+  author    = {Toshinori Araki and
+               Jun Furukawa and
+               Yehuda Lindell and
+               Ariel Nof and
+               Kazuma Ohara},
+  title     = {High-Throughput Semi-Honest Secure Three-Party Computation with an
+               Honest Majority},
+  booktitle = {Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security (CCS)},
+  location  = {Vienna, Austria},
+  month     = oct,
+  pages     = {805--817},
+  year      = {2016},
+  url       = {http://doi.acm.org/10.1145/2976749.2978331},
+  doi       = {10.1145/2976749.2978331},
+}
+
+@inproceedings{FurukawaLNW17,
+  author    = {Jun Furukawa and
+               Yehuda Lindell and
+               Ariel Nof and
+               Or Weinstein},
+  title     = {High-Throughput Secure Three-Party Computation for Malicious Adversaries
+               and an Honest Majority},
+  booktitle = {Proceedings of the 36\textsuperscript{th} Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT)},
+  location  = {Paris, France},
+  month     = apr,
+  pages     = {225--255},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-56614-6_8},
+  doi       = {10.1007/978-3-319-56614-6_8},
+}
+
+@article{secrec,
+  author = {Jagom{\"a}gis, Roman},
+  title = {SecreC: a privacy-aware programming language with applications in data mining},
+  journal = {Master's thesis, University of Tartu},
+  year = {2010}
+}
+
+@inproceedings{sparksql,
+ author = {Armbrust, Michael and Xin, Reynold S. and Lian, Cheng and Huai, Yin and Liu, Davies and Bradley, Joseph K. and Meng, Xiangrui and Kaftan, Tomer and Franklin, Michael J. and Ghodsi, Ali and Zaharia, Matei},
+ title = {Spark {SQL}: Relational Data Processing in Spark},
+ booktitle = {Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (SIGMOD)},
+ year = {2015},
+ isbn = {978-1-4503-2758-9},
+ location = {Melbourne, Victoria, Australia},
+ pages = {1383--1394},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2723372.2742797},
+ doi = {10.1145/2723372.2742797},
+ acmid = {2742797},
+ keywords = {data warehouse, databases, hadoop, machine learning, spark},
+}
+
+@inproceedings{Beaver95,
+  author    = {Donald Beaver},
+  title     = {Precomputing Oblivious Transfer},
+  booktitle = {Proceedings of the 15\textsuperscript{th} Annual International Cryptology
+               Conference (CRYPTO)},
+  location  = {Santa Barbara, California, USA},
+  month     = aug,
+  pages     = {97--109},
+  year      = {1995},
+  url       = {https://doi.org/10.1007/3-540-44750-4_8},
+  doi       = {10.1007/3-540-44750-4_8},
+}
+
+@inproceedings{Beaver91a,
+  author    = {Donald Beaver},
+  title     = {Efficient Multiparty Protocols Using Circuit Randomization},
+  booktitle = {Proceedings of the 11\textsuperscript{th} Annual International Cryptology
+               Conference (CRYPTO)},
+  location  = {Santa Barbara, California, USA},
+  month     = aug,
+  pages     = {420--432},
+  year      = {1991},
+  url       = {https://doi.org/10.1007/3-540-46766-1_34},
+  doi       = {10.1007/3-540-46766-1_34},
+}
+
+@inproceedings{sepia,
+ author = {Burkhart, Martin and Strasser, Mario and Many, Dilip and Dimitropoulos, Xenofontas},
+ title = {SEPIA: Privacy-preserving Aggregation of Multi-domain Network Events and Statistics},
+ booktitle = {Proceedings of the 19\textsuperscript{th} USENIX Conference on Security (USENIX Security)},
+ year = {2010},
+ isbn = {888-7-6666-5555-4},
+ location = {Washington, DC, USA},
+ pages = {15--15},
+ numpages = {1},
+ url = {http://dl.acm.org/citation.cfm?id=1929820.1929840},
+ acmid = {1929840},
+}
+
+@misc{emp-toolkit,
+      author = {Xiao Wang and Alex J. Malozemoff and Jonathan Katz},
+      title = {{EMP-toolkit: Efficient MultiParty computation toolkit}},
+      howpublished = {\url{https://github.com/emp-toolkit}},
+      year={2016}
+    }
+
+@inproceedings{oblivm,
+  author    = {Chang Liu and
+               Xiao Shaun Wang and
+               Kartik Nayak and
+               Yan Huang and
+               Elaine Shi},
+  title     = {ObliVM: {A} Programming Framework for Secure Computation},
+  booktitle = {Proceedings of the 2015 {IEEE} Symposium on Security and Privacy (SP)},
+  location  = {San Jose, California, USA},
+  month     = may,
+  pages     = {359--376},
+  year      = {2015},
+  url       = {https://doi.org/10.1109/SP.2015.29},
+  doi       = {10.1109/SP.2015.29},
+}
+
+@inproceedings{crypten,
+  author={B. Knott and S. Venkataraman and A.Y. Hannun and S. Sengupta and M. Ibrahim and L.J.P. van der Maaten},
+  title={CrypTen: Secure Multi-Party Computation Meets Machine Learning},
+  booktitle={Proceedings of the NeurIPS Workshop on Privacy-Preserving Machine Learning},
+  year={2020},
+}
+
+@misc{scapi,
+  author = {{Bar Ilan Cryptography Research Group}},
+  title = {Secure multiparty computation -- API (SCAPI)},
+  note = {\url{https://github.com/cryptobiu/libscapi}},
+}
+
+@inproceedings{graphsc,
+  author    = {Kartik Nayak and
+               Xiao Shaun Wang and
+               Stratis Ioannidis and
+               Udi Weinsberg and
+               Nina Taft and
+               Elaine Shi},
+  title     = {GraphSC: Parallel Secure Computation Made Easy},
+  booktitle = {Proceedings of the 2015 {IEEE} Symposium on Security and Privacy (SP)},
+  location  = {San Jose, California, USA},
+  month     = may,
+  pages     = {377--394},
+  year      = {2015},
+  url       = {http://dx.doi.org/10.1109/SP.2015.30},
+  doi       = {10.1109/SP.2015.30},
+}
+
+@inproceedings{fairplay,
+  title={Fairplay-Secure Two-Party Computation System.},
+  author={Malkhi, Dahlia and Nisan, Noam and Pinkas, Benny and Sella, Yaron},
+  booktitle={USENIX Security Symposium},
+  volume={4},
+  year={2004},
+  organization={San Diego, CA, USA}
+}
+
+@inproceedings{scoram,
+  author    = {Xiao Shaun Wang and
+               Yan Huang and
+               T.{-}H. Hubert Chan and
+               Abhi Shelat and
+               Elaine Shi},
+  title     = {{SCORAM:} Oblivious {RAM} for Secure Computation},
+  booktitle = {Proceedings of the 2014 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, Scottsdale, AZ, USA, November 3-7, 2014},
+  pages     = {191--202},
+  year      = {2014},
+  url       = {http://doi.acm.org/10.1145/2660267.2660365},
+  doi       = {10.1145/2660267.2660365},
+}
+
+@inproceedings{browser-garbled,
+ author = {Schroepfer, Axel and Kerschbaum, Florian},
+ title = {Demo: Secure Computation in JavaScript},
+ booktitle = {Proceedings of the 18\textsuperscript{th} ACM Conference on Computer and Communications Security (CCS)},
+ year = {2011},
+ isbn = {978-1-4503-0948-6},
+ location = {Chicago, Illinois, USA},
+ pages = {849--852},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2046707.2093509},
+ doi = {10.1145/2046707.2093509},
+ acmid = {2093509},
+ keywords = {JavaScript, business optimization, mash-up, secure computation},
+}
+
+@inproceedings{canon-mpc,
+ author = {Jarrous, Ayman and Pinkas, Benny},
+ title = {Canon-MPC, a System for Casual Non-interactive Secure Multi-party Computation Using Native Client},
+ booktitle = {Proceedings of the 12\textsuperscript{th} ACM Workshop on Workshop on Privacy in the Electronic Society (WPES)},
+ year = {2013},
+ isbn = {978-1-4503-2485-4},
+ location = {Berlin, Germany},
+ pages = {155--166},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2517840.2517845},
+ doi = {10.1145/2517840.2517845},
+ acmid = {2517845},
+ keywords = {cryptography, native client, secure multi-party computation},
+}
+
+@misc{moc,
+title={Massachusetts Open Cloud},
+howpublished = {\url{https://massopen.cloud/}},
+note = "[Online; accessed April 2022]"
+}
+
+@inproceedings{DBLP:conf/ccs/BarakHKL18,
+  author    = {Assi Barak and
+               Martin Hirt and
+               Lior Koskas and
+               Yehuda Lindell},
+  title     = {An End-to-End System for Large Scale {P2P} MPC-as-a-Service and Low-Bandwidth
+               {MPC} for Weak Participants},
+  booktitle = {{ACM} Conference on Computer and Communications Security},
+  pages     = {695--712},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+@inproceedings{DBLP:conf/hotcloud/YuMAFKO16,
+  author    = {Da Yu and
+               Luo Mai and
+               Somaya Arianfar and
+               Rodrigo Fonseca and
+               Orran Krieger and
+               David Oran},
+  title     = {Towards a Network Marketplace in a Cloud},
+  booktitle = {HotCloud},
+  publisher = {{USENIX} Association},
+  year      = {2016}
+}
+
+@inproceedings{DBLP:conf/cloud/HennesseyTTKHDK16,
+  author    = {Jason Hennessey and
+               Sahil Tikale and
+               Ata Turk and
+               Emine Ugur Kaynar and
+               Chris Hill and
+               Peter Desnoyers and
+               Orran Krieger},
+  title     = {{HIL:} Designing an Exokernel for the Data Center},
+  booktitle = {SoCC},
+  pages     = {155--168},
+  publisher = {{ACM}},
+  year      = {2016}
+}
+
+@inproceedings{PappasKVKMCGKB14,
+  author    = {Vasilis Pappas and
+               Fernando Krell and
+               Binh Vo and
+               Vladimir Kolesnikov and
+               Tal Malkin and
+               Seung Geol Choi and
+               Wesley George and
+               Angelos D. Keromytis and
+               Steven M. Bellovin},
+  title     = {Blind Seer: {A} Scalable Private {DBMS}},
+  booktitle = {2014 {IEEE} Symposium on Security and Privacy (SP)},
+  pages     = {359--374},
+  year      = {2014},
+  month     = may,
+  location  = {Berkeley, California, USA},
+  url       = {https://doi.org/10.1109/SP.2014.30},
+  doi       = {10.1109/SP.2014.30},
+  timestamp = {Tue, 12 Sep 2017 18:26:51 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/sp/PappasKVKMCGKB14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{FaberJKNRS15,
+  author    = {Sky Faber and
+               Stanislaw Jarecki and
+               Hugo Krawczyk and
+               Quan Nguyen and
+               Marcel{-}Catalin Rosu and
+               Michael Steiner},
+  title     = {Rich Queries on Encrypted Data: Beyond Exact Matches},
+  booktitle = {Proceedings of the 20\textsuperscript{th} European Symposium on Research in Computer Security (ESORICS)},
+  location  = {Vienna, Austria},
+  month     = sep,
+  pages     = {123--145},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-319-24177-7_7},
+  doi       = {10.1007/978-3-319-24177-7_7},
+  timestamp = {Tue, 23 May 2017 01:07:16 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/esorics/FaberJKNRS15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@misc{KamaraM16,
+  author    = {Seny Kamara and
+               Tarik Moataz},
+  title     = {{SQL} on Structurally-Encrypted Databases},
+  journal   = {{IACR} Cryptology ePrint Archive},
+  year      = {2016},
+  eprint={2016/453},
+  archivePrefix={IACR},
+  url       = {http://eprint.iacr.org/2016/453},
+}
+
+@inproceedings{Batcher68,
+  author    = {Kenneth E. Batcher},
+  title     = {Sorting Networks and Their Applications},
+  booktitle = {American Federation of Information Processing Societies: {AFIPS} Conference
+               Proceedings: 1968 Spring Joint Computer Conference, Atlantic City,
+               NJ, USA, 30 April - 2 May 1968},
+  pages     = {307--314},
+  year      = {1968},
+  url       = {http://doi.acm.org/10.1145/1468075.1468121},
+  doi       = {10.1145/1468075.1468121},
+}
+
+@book{knuth1998art,
+  title={The art of computer programming: sorting and searching},
+  author={Knuth, Donald Ervin},
+  volume={3},
+  year={1998},
+  publisher={Pearson Education}
+}
+
+@article{BoschHJP14,
+  author    = {Christoph B{\"{o}}sch and
+               Pieter H. Hartel and
+               Willem Jonker and
+               Andreas Peter},
+  title     = {A Survey of Provably Secure Searchable Encryption},
+  journal   = {{ACM} Computing Surveys},
+  volume    = {47},
+  number    = {2},
+  pages     = {18:1--18:51},
+  year      = {2014},
+  url       = {http://doi.acm.org/10.1145/2636328},
+  doi       = {10.1145/2636328},
+  timestamp = {Wed, 14 Jun 2017 20:38:22 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/csur/BoschHJP14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{LuO13,
+  author    = {Steve Lu and
+               Rafail Ostrovsky},
+  title     = {How to Garble {RAM} Programs},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2013, 32nd Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               Athens, Greece, May 26-30, 2013. Proceedings},
+  pages     = {719--734},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-38348-9_42},
+  doi       = {10.1007/978-3-642-38348-9_42},
+}
+
+@inproceedings{GentryHLO0W14,
+  author    = {Craig Gentry and
+               Shai Halevi and
+               Steve Lu and
+               Rafail Ostrovsky and
+               Mariana Raykova and
+               Daniel Wichs},
+  title     = {Garbled {RAM} Revisited},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2014 - 33rd Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               Copenhagen, Denmark, May 11-15, 2014. Proceedings},
+  pages     = {405--422},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/978-3-642-55220-5_23},
+  doi       = {10.1007/978-3-642-55220-5_23},
+}
+
+@inproceedings{GargLOS15,
+  author    = {Sanjam Garg and
+               Steve Lu and
+               Rafail Ostrovsky and
+               Alessandra Scafuro},
+  title     = {Garbled {RAM} From One-Way Functions},
+  booktitle = {Proceedings of the Forty-Seventh Annual {ACM} on Symposium on Theory
+               of Computing, {STOC} 2015, Portland, OR, USA, June 14-17, 2015},
+  pages     = {449--458},
+  year      = {2015},
+  url       = {http://doi.acm.org/10.1145/2746539.2746593},
+  doi       = {10.1145/2746539.2746593},
+}
+
+@inproceedings{GargLO15,
+  author    = {Sanjam Garg and
+               Steve Lu and
+               Rafail Ostrovsky},
+  title     = {Black-Box Garbled {RAM}},
+  booktitle = {Proceedings of the 56\textsuperscript{th} Annual Symposium on Foundations of Computer Science (FOCS)},
+  location  = {Berkeley, California, USA},
+  month     = oct,
+  pages     = {210--229},
+  year      = {2015},
+  url       = {https://doi.org/10.1109/FOCS.2015.22},
+  doi       = {10.1109/FOCS.2015.22},
+}
+
+@inproceedings{CanettiCHR16,
+  author    = {Ran Canetti and
+               Yilei Chen and
+               Justin Holmgren and
+               Mariana Raykova},
+  title     = {Adaptive Succinct Garbled {RAM} or: How to Delegate Your Database},
+  booktitle = {Proceedings of the 14\textsuperscript{th} International Conference on Theory of Cryptography (TCC)},
+  location  = {Beijing, China},
+  month     = oct,
+  pages     = {61--90},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/978-3-662-53644-5_3},
+  doi       = {10.1007/978-3-662-53644-5_3},
+}
+
+@inproceedings{LuO17,
+  author    = {Steve Lu and
+               Rafail Ostrovsky},
+  title     = {Black-Box Parallel Garbled {RAM}},
+  booktitle = {Proceedings of the 37\textsuperscript{th} Annual International Cryptology
+               Conference (CRYPTO)},
+  location  = {Santa Barbara, California, USA},
+  month     = aug,
+  pages     = {66--92},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-63715-0_3},
+  doi       = {10.1007/978-3-319-63715-0_3},
+}
+
+@article{GoldreichO96,
+  author    = {Oded Goldreich and
+               Rafail Ostrovsky},
+  title     = {Software Protection and Simulation on Oblivious RAMs},
+  journal   = {J. {ACM}},
+  volume    = {43},
+  number    = {3},
+  pages     = {431--473},
+  year      = {1996},
+  url       = {http://doi.acm.org/10.1145/233551.233553},
+  doi       = {10.1145/233551.233553},
+  timestamp = {Thu, 20 Nov 2003 12:28:09 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/jacm/GoldreichO96},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DaniKMS14,
+  author    = {Varsha Dani and
+               Valerie King and
+               Mahnush Movahedi and
+               Jared Saia},
+  title     = {Quorums Quicken Queries: Efficient Asynchronous Secure Multiparty
+               Computation},
+  booktitle = {Proceedings of the 15\textsuperscript{th} International Conference on Distributed Computing and Networking (ICDCN)},
+  location  = {Coimbatore, India},
+  month     = jan,
+  pages     = {242--256},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/978-3-642-45249-9_16},
+  doi       = {10.1007/978-3-642-45249-9_16},
+}
+
+@inproceedings{BoyleCP15,
+  author    = {Elette Boyle and
+               Kai{-}Min Chung and
+               Rafael Pass},
+  title     = {Large-Scale Secure Computation: Multi-party Computation for (Parallel)
+               {RAM} Programs},
+  booktitle = {Proceedings of the 35\textsuperscript{th} Annual International Cryptology
+               Conference (CRYPTO)},
+  location  = {Santa Barbara, California, USA},
+  month     = aug,
+  pages     = {742--762},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-662-48000-7_36},
+  doi       = {10.1007/978-3-662-48000-7_36},
+}
+
+@inproceedings{ChandranCGGOZ15,
+  author    = {Nishanth Chandran and
+               Wutichai Chongchitmate and
+               Juan A. Garay and
+               Shafi Goldwasser and
+               Rafail Ostrovsky and
+               Vassilis Zikas},
+  title     = {The Hidden Graph Model: Communication Locality and Optimal Resiliency
+               with Adaptive Faults},
+  booktitle = {Proceedings of the 2015 Conference on Innovations in Theoretical Computer Science (ITCS)},
+  location  = {Rehovot, Israel},
+  month     = jan,
+  pages     = {153--162},
+  year      = {2015},
+  url       = {http://doi.acm.org/10.1145/2688073.2688102},
+  doi       = {10.1145/2688073.2688102},
+}
+
+@article{DaniKMSZ17,
+  author    = {Varsha Dani and
+               Valerie King and
+               Mahnush Movahedi and
+               Jared Saia and
+               Mahdi Zamani},
+  title     = {Secure multi-party computation in large networks},
+  journal   = {Distributed Computing},
+  volume    = {30},
+  number    = {3},
+  pages     = {193--229},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/s00446-016-0284-9},
+  doi       = {10.1007/s00446-016-0284-9},
+}
+
+@article{scope,
+ author = {Chaiken, Ronnie and Jenkins, Bob and Larson, Per-{\AA}ke and Ramsey, Bill and Shakib, Darren and Weaver, Simon and Zhou, Jingren},
+ title = {{SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets}},
+ journal = {Proceedings of the VLDB Endowment},
+ issue_date = {August 2008},
+ volume = {1},
+ number = {2},
+ month = aug,
+ year = {2008},
+ issn = {2150-8097},
+ pages = {1265--1276},
+ numpages = {12},
+ url = {http://dx.doi.org/10.14778/1454159.1454166},
+ doi = {10.14778/1454159.1454166},
+ acmid = {1454166},
+}
+
+@article{DBLP:journals/iacr/KamaraMR11,
+  author    = {Seny Kamara and
+               Payman Mohassel and
+               Mariana Raykova},
+  title     = {Outsourcing Multi-Party Computation},
+  journal   = {{IACR} Cryptology ePrint Archive},
+  eprint={2011/272},
+  archivePrefix={IACR},
+  volume    = {2011},
+  pages     = {272},
+  year      = {2011},
+  url       = {http://eprint.iacr.org/2011/272},
+}
+
+@inproceedings{DBLP:conf/ccs/KamaraMR12,
+  author    = {Seny Kamara and
+               Payman Mohassel and
+               Ben Riva},
+  title     = {Salus: a system for server-aided secure function evaluation},
+ booktitle = {Proceedings of the 2012 ACM Conference on Computer and Communications Security},
+  pages     = {797--808},
+  year      = {2012},
+  url       = {https://doi.org/10.1145/2382196.2382280},
+  doi       = {10.1145/2382196.2382280},
+}
+
+@book{Goldreichv1,
+  author    = {Oded Goldreich},
+  title     = {The Foundations of Cryptography -- Volume 1, Basic Techniques},
+  publisher = {Cambridge University Press},
+  year      = {2004},
+  isbn      = {0-521-79172-3},
+}
+
+@book{DBLP:books/cu/Goldreich2004,
+  author    = {Oded Goldreich},
+  title     = {The Foundations of Cryptography -- Volume 2, Basic Applications},
+  publisher = {Cambridge University Press},
+  year      = {2004},
+  isbn      = {0-521-83084-2},
+}
+
+
+
+@inproceedings{feigenbaum2004secure,
+  title={Secure computation of surveys},
+  author={Feigenbaum, Joan and Pinkas, Benny and Ryger, Raphael and Saint-Jean, Felipe},
+  booktitle={EU Workshop on Secure Multiparty Protocols},
+  url = {https://www.cs.yale.edu/homes/jf/SMP2004.pdf},
+  pages={2--14},
+  year={2004}
+}
+
+@inproceedings {273721,
+author = {Sam Kumar and David E. Culler and Raluca Ada Popa},
+title = {{MAGE}: Nearly Zero-Cost Virtual Memory for Secure Computation},
+booktitle = {15th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 21)},
+year = {2021},
+isbn = {978-1-939133-22-9},
+pages = {367--385},
+url = {https://www.usenix.org/conference/osdi21/presentation/kumar},
+publisher = {{USENIX} Association},
+month = jul,
+}
+
+@inproceedings{DBLP:conf/ccs/BonawitzIKMMPRS17,
+  author    = {Keith Bonawitz and
+               Vladimir Ivanov and
+               Ben Kreuter and
+               Antonio Marcedone and
+               H. Brendan McMahan and
+               Sarvar Patel and
+               Daniel Ramage and
+               Aaron Segal and
+               Karn Seth},
+  title     = {Practical Secure Aggregation for Privacy-Preserving Machine Learning},
+  booktitle = {{ACM} Conference on Computer and Communications Security},
+  pages     = {1175--1191},
+  publisher = {{ACM}},
+}
+
+@article{DBLP:journals/cj/ArcherBLKNPSW18,
+  author    = {David W. Archer and
+               Dan Bogdanov and
+               Yehuda Lindell and
+               Liina Kamm and
+               Kurt Nielsen and
+               Jakob Illeborg Pagter and
+               Nigel P. Smart and
+               Rebecca N. Wright},
+  title     = {From Keys to Databases - Real-World Applications of Secure Multi-Party
+               Computation},
+  journal   = {Comput. J.},
+  volume    = {61},
+  number    = {12},
+  pages     = {1749--1771},
+  year      = {2018}
+}
+
+@article {PMID:21486880,
+	Title = {A secure protocol for protecting the identity of providers when disclosing data for disease surveillance},
+	Author = {El Emam, Khaled and Hu, Jun and Mercer, Jay and Peyton, Liam and Kantarcioglu, Murat and Malin, Bradley and Buckeridge, David and Samet, Saeed and Earle, Craig},
+	DOI = {10.1136/amiajnl-2011-000100},
+	Number = {3},
+	Volume = {18},
+	Month = {May},
+	Year = {2011},
+	Journal = {Journal of the American Medical Informatics Association: JAMIA},
+	ISSN = {1067-5027},
+	Pages = {212--217},
+	URL = {http://europepmc.org/articles/PMC3078664},
+}
+
+@phdthesis{mpc-hospital,
+author = {Giannopoulos, Thanos and Mouris, Dimitris},
+year = {2018},
+month = {09},
+pages = {},
+school = {National and Kapodistrian University of Athens},
+title = {Privacy Preserving Medical Data Analytics using Secure Multi Party Computation. An End-To-End Use Case.},
+doi = {10.13140/RG.2.2.19303.70562}
+}
+
+@inproceedings{DBLP:conf/fc/BogetoftCDGJKNNNPST09,
+  author    = {Peter Bogetoft and
+               Dan Lund Christensen and
+               Ivan Damg{\aa}rd and
+               Martin Geisler and
+               Thomas P. Jakobsen and
+               Mikkel Kr{\o}igaard and
+               Janus Dam Nielsen and
+               Jesper Buus Nielsen and
+               Kurt Nielsen and
+               Jakob Pagter and
+               Michael I. Schwartzbach and
+               Tomas Toft},
+  title     = {Secure Multiparty Computation Goes Live},
+  booktitle = {Financial Cryptography},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5628},
+  pages     = {325--343},
+  publisher = {Springer},
+  year      = {2009}
+}
+
+@inproceedings{DBLP:conf/fc/DamgardDNNT16,
+  author    = {Ivan Damg{\aa}rd and
+               Kasper Damg{\aa}rd and
+               Kurt Nielsen and
+               Peter Sebastian Nordholt and
+               Tomas Toft},
+  title     = {Confidential Benchmarking Based on Multiparty Computation},
+  booktitle = {Financial Cryptography},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9603},
+  pages     = {169--187},
+  publisher = {Springer},
+  year      = {2016}
+}
+
+@inproceedings{DBLP:conf/cans/AbidinACM16,
+  author    = {Aysajan Abidin and
+               Abdelrahaman Aly and
+               Sara Cleemput and
+               Mustafa A. Mustafa},
+  title     = {An MPC-Based Privacy-Preserving Protocol for a Local Electricity Trading
+               Market},
+  booktitle = {{CANS}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10052},
+  pages     = {615--625},
+  year      = {2016}
+}
+
+@article{DBLP:journals/iacr/IonKNPRSSSY19,
+  author    = {Mihaela Ion and
+               Ben Kreuter and
+               Ahmet Erhan Nergiz and
+               Sarvar Patel and
+               Mariana Raykova and
+               Shobhit Saxena and
+               Karn Seth and
+               David Shanahan and
+               Moti Yung},
+  title     = {On Deploying Secure Computing Commercially: Private Intersection-Sum
+               Protocols and their Business Applications},
+  journal   = {{IACR} Cryptology ePrint Archive},
+  volume    = {2019},
+  pages     = {723},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/fc/BogdanovJSV15,
+  author    = {Dan Bogdanov and
+               Marko J{\~{o}}emets and
+               Sander Siim and
+               Meril Vaht},
+  title     = {How the Estonian Tax and Customs Board Evaluated a Tax Fraud Detection
+               System Based on Secure Multi-party Computation},
+  booktitle = {Financial Cryptography},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8975},
+  pages     = {227--234},
+  publisher = {Springer},
+  year      = {2015}
+}
+
+@inproceedings{DBLP:conf/dev/LapetsJAIQVB18,
+  author    = {Andrei Lapets and
+               Frederick Jansen and
+               Kinan Dak Albab and
+               Rawane Issa and
+               Lucy Qin and
+               Mayank Varia and
+               Azer Bestavros},
+  title     = {Accessible Privacy-Preserving Web-Based Data Analysis for Assessing
+               and Addressing Economic Inequalities},
+  booktitle = {{COMPASS}},
+  pages     = {48:1--48:5},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+@inproceedings{DBLP:conf/sp/HastingsHNZ19,
+  author    = {Marcella Hastings and
+               Brett Hemenway and
+               Daniel Noble and
+               Steve Zdancewic},
+  title     = {SoK: General Purpose Compilers for Secure Multi-Party Computation},
+  booktitle = {{IEEE} Symposium on Security and Privacy},
+  pages     = {1220--1237},
+  publisher = {{IEEE}},
+  year      = {2019}
+}
+
+@book{DBLP:books/daglib/0014576,
+  author    = {Randy Howard Katz and
+               Gaetano Borriello},
+  title     = {Contemporary logic design {(2.} ed.)},
+  publisher = {Pearson Education},
+  year      = {2005},
+  isbn      = {978-0-13-127830-1},
+  timestamp = {Fri, 01 Apr 2011 13:41:32 +0200},
+  biburl    = {https://dblp.org/rec/books/daglib/0014576.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INPROCEEDINGS{privacy-preserving-query,  
+author={F. {Emekci} and D. {Agrawal} and A. E. {Abbadi} and A. {Gulbeden}},  
+booktitle={22nd International Conference on Data Engineering (ICDE'06)},  
+title={Privacy Preserving Query Processing Using Third Parties},   
+year={2006},  
+pages={27-27},}
+
+@article{arx,
+author = {Poddar, Rishabh and Boelter, Tobias and Popa, Raluca Ada},
+title = {Arx: An Encrypted Database Using Semantically Secure Encryption},
+year = {2019},
+issue_date = {July 2019},
+publisher = {VLDB Endowment},
+volume = {12},
+number = {11},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3342263.3342641},
+doi = {10.14778/3342263.3342641},
+abstract = {In recent years, encrypted databases have emerged as a promising direction that provides data confidentiality without sacrificing functionality: queries are executed on encrypted data. However, many practical proposals rely on a set of weak encryption schemes that have been shown to leak sensitive data. In this paper, we propose Arx, a practical and functionally rich database system that encrypts the data only with semantically secure encryption schemes. We show that Arx supports real applications such as ShareLaTeX with a modest performance overhead.},
+journal = {Proc. VLDB Endow.},
+month = jul,
+pages = {1664--1678},
+numpages = {15}
+}
+
+@inproceedings {sgx-attack3,
+author = {Sangho Lee and Ming-Wei Shih and Prasun Gera and Taesoo Kim and Hyesoon Kim and Marcus Peinado},
+title = {Inferring Fine-grained Control Flow Inside {SGX} Enclaves with Branch Shadowing},
+booktitle = {26th {USENIX} Security Symposium ({USENIX} Security 17)},
+year = {2017},
+isbn = {978-1-931971-40-9},
+address = {Vancouver, BC},
+pages = {557--574},
+url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho},
+publisher = {{USENIX} Association},
+month = aug,
+}
+
+@inproceedings{oram2,
+author = {Goldreich, O.},
+title = {Towards a Theory of Software Protection and Simulation by Oblivious RAMs},
+year = {1987},
+isbn = {0897912217},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/28395.28416},
+doi = {10.1145/28395.28416},
+abstract = {Software protection is one of the most important issues concerning computer practice. There exist many heuristics and ad-hoc methods for protection, but the problem as a whole has not received the theoretical treatment it deserves. In this paper, we make the first steps towards a theoretic treatment of software protection: First, we distill and formulate the key problem of learning about a program from its execution. Second, assuming the existence of one-way permutations, we present an efficient way of executing programs such that it is infeasible to learn anything about the program by monitoring its executions.How can one efficiently execute programs without allowing an adversary, monitoring the execution, to learn anything about the program? Traditional cryptographic techniques can be applied to keep the contents of the memory unknown throughout the execution, but are not applicable to the problem of hiding the access pattern. The problem of hiding the access pattern efficiently corresponds to efficient simulation of Random Access Machines (RAM) on an oblivious RAM. We define an oblivious RAM to be a (probabilistic) RAM for which (the distribution of) the memory access pattern is independent of the input. We present an (on-line) simulation of t steps of an arbitrary RAM with m memory cells, by less than t·mε steps of an oblivious RAM with 2m memory cells, where ε&gt;0 is an arbitrary constant.},
+booktitle = {Proceedings of the Nineteenth Annual ACM Symposium on Theory of Computing},
+pages = {182–194},
+numpages = {13},
+location = {New York, New York, USA},
+series = {STOC '87}
+}
+
+@article{oram1,
+author = {Goldreich, Oded and Ostrovsky, Rafail},
+title = {Software Protection and Simulation on Oblivious RAMs},
+year = {1996},
+issue_date = {May 1996},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {43},
+number = {3},
+issn = {0004-5411},
+url = {https://doi.org/10.1145/233551.233553},
+doi = {10.1145/233551.233553},
+abstract = {Software protection is one of the most important issues concerning computer practice. There exist many heuristics and ad-hoc methods for protection, but the problem as a whole has not received the theoretical treatment it deserves. In this paper, we provide theoretical treatment of software protection. We reduce the problem of software protection to the problem of efficient simulation on oblivious RAM.A machine is oblivious if thhe sequence in which it accesses memory locations is equivalent for any two inputs with the same running time. For example, an oblivious Turing Machine is one for which the movement of the heads on the tapes is identical for each computation. (Thus, the movement is independent of the actual input.) What is the slowdown in the running time of a machine, if it is required to be oblivious? In 1979, Pippenger and Fischer showed how a two-tape oblivious Turing Machine can simulate, on-line, a one-tape Turing Machine, with a logarithmic slowdown in the running time. We show an analogous result for the random-access machine (RAM) model of computation. In particular, we show how to do an on-line simulation of an arbitrary RAM by a probabilistic oblivious RAM with a polylogaithmic slowdown in the running time. On the other hand, we show that a logarithmic slowdown is a lower bound.},
+journal = {J. ACM},
+month = may,
+pages = {431–473},
+numpages = {43},
+keywords = {pseudorandom functions, software protection, simulation of random access machines}
+}
+
+
+@inproceedings{fhe,
+author = {Gentry, Craig},
+title = {Fully Homomorphic Encryption Using Ideal Lattices},
+year = {2009},
+isbn = {9781605585062},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1536414.1536440},
+doi = {10.1145/1536414.1536440},
+abstract = {We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits evaluation of arbitrary circuits, it suffices to construct an encryption scheme that can evaluate (slightly augmented versions of) its own decryption circuit; we call a scheme that can evaluate its (augmented) decryption circuit bootstrappable.Next, we describe a public key encryption scheme using ideal lattices that is almost bootstrappable.Lattice-based cryptosystems typically have decryption algorithms with low circuit complexity, often dominated by an inner product computation that is in NC1. Also, ideal lattices provide both additive and multiplicative homomorphisms (modulo a public-key ideal in a polynomial ring that is represented as a lattice), as needed to evaluate general circuits.Unfortunately, our initial scheme is not quite bootstrappable -- i.e., the depth that the scheme can correctly evaluate can be logarithmic in the lattice dimension, just like the depth of the decryption circuit, but the latter is greater than the former. In the final step, we show how to modify the scheme to reduce the depth of the decryption circuit, and thereby obtain a bootstrappable encryption scheme, without reducing the depth that the scheme can evaluate. Abstractly, we accomplish this by enabling the encrypter to start the decryption process, leaving less work for the decrypter, much like the server leaves less work for the decrypter in a server-aided cryptosystem.},
+booktitle = {Proceedings of the Forty-First Annual ACM Symposium on Theory of Computing},
+pages = {169–178},
+numpages = {10},
+keywords = {fully homomorphic encryption},
+location = {Bethesda, MD, USA},
+series = {STOC '09}
+}
+
+@inproceedings{sovereign-joins,
+author = {Agrawal, Rakesh and Asonov, Dmitri and Kantarcioglu, Murat and Li, Yaping},
+title = {Sovereign Joins},
+year = {2006},
+isbn = {0769525709},
+publisher = {IEEE Computer Society},
+address = {USA},
+url = {https://doi.org/10.1109/ICDE.2006.144},
+doi = {10.1109/ICDE.2006.144},
+abstract = {We present a secure network service for sovereign information sharing whose only trusted component is an off-theshelf secure coprocessor. The participating data providers send encrypted relations to the service that sends the encrypted results to the recipients. The technical challenge in implementing such a service arises from the limited capability of the secure coprocessors: they have small memory, no attached disk, and no facility for communicating directly with other machines in the network. The internal state of an ongoing computation within the secure coprocessor cannot be seen from outside, but its interactions with the server can be exploited by an adversary. We formulate the problem of computing join in this setting where the goal is to prevent information leakage through patterns in I/O while maximizing performance. We specify criteria for proving the security of a join algorithm and provide provably safe algorithms. These algorithms can be used to compute general joins involving arbitrary predicates and multiple sovereign databases. We thus enable a new class of applications requiring query processing across sovereign entities such that nothing apart from the result is revealed to the recipients.},
+booktitle = {Proceedings of the 22nd International Conference on Data Engineering},
+pages = {26},
+numpages = {1},
+series = {ICDE '06}
+}
+
+@INPROCEEDINGS{blindseer,
+  author={V. {Pappas} and F. {Krell} and B. {Vo} and V. {Kolesnikov} and T. {Malkin} and S. G. {Choi} and W. {George} and A. {Keromytis} and S. {Bellovin}},
+  booktitle={2014 IEEE Symposium on Security and Privacy}, 
+  title={Blind Seer: A Scalable Private DBMS}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={359-374},}
+
+@InProceedings{cypherbase,
+author = {Arasu, Arvind and Blanas, Spyros and Eguro, Ken and Kaushik, Raghav and Kossmann, Donald and Ramamurthy, Ravi and Venkatesan, Ramarathnam},
+title = {Orthogonal Security With Cipherbase},
+booktitle = {6th Biennial Conference on Innovative Data Systems Research (CIDR'13)},
+year = {2013},
+month = {January},
+abstract = {This paper describes the design of the Cipherbase system. Cipherbase is a full-fledged SQL database system that achieves high performance and high data confidentiality by storing and processing strongly encrypted data. The Cipherbase system incorporates customized trusted hardware, extending Microsoft’s SQL Server for efficient execution of queries using both secure hardware and commodity servers. This paper presents the design of the Cipherbase secure hardware and its implementation using FPGAs. Furthermore, this paper shows how we addressed hardware / software co-design in the Cipherbase system.},
+url = {https://www.microsoft.com/en-us/research/publication/orthogonal-security-with-cipherbase/},
+edition = {6th Biennial Conference on Innovative Data Systems Research (CIDR'13)},
+}
+
+@article{stealthdb,
+  author    = {Dhinakaran Vinayagamurthy and
+               Alexey Gribov and
+               Sergey Gorbunov},
+  title     = {StealthDB: a Scalable Encrypted Database with Full {SQL} Query Support},
+  journal   = {Proc. Priv. Enhancing Technol.},
+  volume    = {2019},
+  number    = {3},
+  pages     = {370--388},
+  year      = {2019},
+  url       = {https://doi.org/10.2478/popets-2019-0052},
+  doi       = {10.2478/popets-2019-0052},
+  timestamp = {Tue, 01 Sep 2020 13:13:15 +0200},
+  biburl    = {https://dblp.org/rec/journals/popets/VinayagamurthyG19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{fhe-impl2,
+author="Rohloff, Kurt
+and Cousins, David Bruce",
+editor="B{\"o}hme, Rainer
+and Brenner, Michael
+and Moore, Tyler
+and Smith, Matthew",
+title="A Scalable Implementation of Fully Homomorphic Encryption Built on NTRU",
+booktitle="Financial Cryptography and Data Security",
+year="2014",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="221--234",
+abstract="In this paper we report on our work to design, implement and evaluate a Fully Homomorphic Encryption (FHE) scheme. Our FHE scheme is an NTRU-like cryptosystem, with additional support for efficient key switching and modulus reduction operations to reduce the frequency of bootstrapping operations. Ciphertexts in our scheme are represented as matrices of 64-bit integers. The basis of our design is a layered software services stack to provide high-level FHE operations supported by lower-level lattice-based primitive implementations running on a computing substrate. We implement and evaluate our FHE scheme to run on a commodity CPU-based computing environment. We implemented our FHE scheme to run in a compiled C environment and use parallelism to take advantage of multi-core processors. We provide experimental results which show that our FHE implementation provides at least an order of magnitude improvement in runtime as compared to recent publicly known evaluation results of other FHE software implementations.",
+isbn="978-3-662-44774-1"
+}
+
+
+@InProceedings{fhe-impl,
+author="Gentry, Craig
+and Halevi, Shai",
+editor="Paterson, Kenneth G.",
+title="Implementing Gentry's Fully-Homomorphic Encryption Scheme",
+booktitle="Advances in Cryptology -- EUROCRYPT 2011",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="129--148",
+abstract="We describe a working implementation of a variant of Gentry's fully homomorphic encryption scheme (STOC 2009), similar to the variant used in an earlier implementation effort by Smart and Vercauteren (PKC 2010). Smart and Vercauteren implemented the underlying ``somewhat homomorphic'' scheme, but were not able to implement the bootstrapping functionality that is needed to get the complete scheme to work. We show a number of optimizations that allow us to implement all aspects of the scheme, including the bootstrapping functionality.",
+isbn="978-3-642-20465-4"
+}
+
+
+@inproceedings{sgx-attack6,
+author = {Xu, Yuanzhong and Cui, Weidong and Peinado, Marcus},
+title = {Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems},
+year = {2015},
+isbn = {9781467369497},
+publisher = {IEEE Computer Society},
+address = {USA},
+url = {https://doi.org/10.1109/SP.2015.45},
+doi = {10.1109/SP.2015.45},
+abstract = {The presence of large numbers of security vulnerabilities in popular feature-rich commodity operating systems has inspired a long line of work on excluding these operating systems from the trusted computing base of applications, while retaining many of their benefits. Legacy applications continue to run on the untrusted operating system, while a small hyper visor or trusted hardware prevents the operating system from accessing the applications' memory. In this paper, we introduce controlled-channel attacks, a new type of side-channel attack that allows an untrusted operating system to extract large amounts of sensitive information from protected applications on systems like Overshadow, Ink Tag or Haven. We implement the attacks on Haven and Ink Tag and demonstrate their power by extracting complete text documents and outlines of JPEG images from widely deployed application libraries. Given these attacks, it is unclear if Over shadow's vision of protecting unmodified legacy applications from legacy operating systems running on off-the-shelf hardware is still tenable.},
+booktitle = {Proceedings of the 2015 IEEE Symposium on Security and Privacy},
+pages = {640--656},
+numpages = {17},
+keywords = {untrusted operating system, virtualization, side-channel attack, SGX},
+series = {SP '15}
+}
+
+@inproceedings{sgx-attack5,
+author = {Wang, Wenhao and Chen, Guoxing and Pan, Xiaorui and Zhang, Yinqian and Wang, XiaoFeng and Bindschaedler, Vincent and Tang, Haixu and Gunter, Carl A.},
+title = {Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX},
+year = {2017},
+isbn = {9781450349468},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3133956.3134038},
+doi = {10.1145/3133956.3134038},
+abstract = {Side-channel risks of Intel SGX have recently attracted great attention. Under the spotlight is the newly discovered page-fault attack, in which an OS-level adversary induces page faults to observe the page-level access patterns of a protected process running in an SGX enclave. With almost all proposed defense focusing on this attack, little is known about whether such efforts indeed raise the bar for the adversary, whether a simple variation of the attack renders all protection ineffective, not to mention an in-depth understanding of other attack surfaces in the SGX system. In the paper, we report the first step toward systematic analyses of side-channel threats that SGX faces, focusing on the risks associated with its memory management. Our research identifies 8 potential attack vectors, ranging from TLB to DRAM modules. More importantly, we highlight the common misunderstandings about SGX memory side channels, demonstrating that high frequent AEXs can be avoided when recovering EdDSA secret key through a new page channel and fine-grained monitoring of enclave programs (at the level of 64B) can be done through combining both cache and cross-enclave DRAM channels. Our findings reveal the gap between the ongoing security research on SGX and its side-channel weaknesses, redefine the side-channel threat model for secure enclaves, and can provoke a discussion on when to use such a system and how to use it securely.},
+booktitle = {Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {2421--2434},
+numpages = {14},
+keywords = {side channel attacks, intel sgx},
+location = {Dallas, Texas, USA},
+series = {CCS '17}
+}
+
+@inproceedings {sgx-attack4,
+author = {Jo Van Bulck and Nico Weichbrodt and R{\"u}diger Kapitza and Frank Piessens and Raoul Strackx},
+title = {Telling Your Secrets without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution},
+booktitle = {26th {USENIX} Security Symposium ({USENIX} Security 17)},
+year = {2017},
+isbn = {978-1-931971-40-9},
+address = {Vancouver, BC},
+pages = {1041--1056},
+url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/van-bulck},
+publisher = {{USENIX} Association},
+month = aug,
+}
+
+@inproceedings{sgx-attack2,
+author = {G\"{o}tzfried, Johannes and Eckert, Moritz and Schinzel, Sebastian and M\"{u}ller, Tilo},
+title = {Cache Attacks on Intel SGX},
+year = {2017},
+isbn = {9781450349352},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3065913.3065915},
+doi = {10.1145/3065913.3065915},
+abstract = {For the first time, we practically demonstrate that Intel SGX enclaves are vulnerable against cache-timing attacks. As a case study, we present an access-driven cache-timing attack on AES when running inside an Intel SGX enclave. Using Neve and Seifert's elimination method, as well as a cache probing mechanism relying on Intel PMC, we are able to extract the AES secret key in less than 10 seconds by investigating 480 encrypted blocks on average. The AES implementation we attack is based on a Gladman AES implementation taken from an older version of OpenSSL, which is known to be vulnerable to cache-timing attacks. In contrast to previous works on cache-timing attacks, our attack is executed with root privileges running on the same host as the vulnerable enclave. Intel SGX, however, was designed to precisely protect applications against such root-level attacks. As a consequence, we show that SGX cannot withstand its designated attacker model when it comes to side-channel vulnerabilities. To the contrary, the attack surface for side-channels increases dramatically in the scenario of SGX due to the power of root-level attackers, for example, by exploiting the accuracy of PMC, which is restricted to kernel code.},
+booktitle = {Proceedings of the 10th European Workshop on Systems Security},
+articleno = {2},
+numpages = {6},
+keywords = {Root-level Attacks, Cache-timing Attacks, Intel SGX},
+location = {Belgrade, Serbia},
+series = {EuroSec'17}
+}
+
+@inproceedings {sgx-attack1,
+author = {Ferdinand Brasser and Urs M{\"u}ller and Alexandra Dmitrienko and Kari Kostiainen and Srdjan Capkun and Ahmad-Reza Sadeghi},
+title = {Software Grand Exposure: {SGX} Cache Attacks Are Practical},
+booktitle = {11th {USENIX} Workshop on Offensive Technologies ({WOOT} 17)},
+year = {2017},
+address = {Vancouver, BC},
+url = {https://www.usenix.org/conference/woot17/workshop-program/presentation/brasser},
+publisher = {{USENIX} Association},
+month = aug,
+}
+
+@inproceedings{psi-cuckoo-hashing,
+  author    = {Benny Pinkas and
+               Thomas Schneider and
+               Christian Weinert and
+               Udi Wieder},
+  editor    = {Jesper Buus Nielsen and
+               Vincent Rijmen},
+  title     = {Efficient Circuit-Based {PSI} via Cuckoo Hashing},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2018 - 37th Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               Tel Aviv, Israel, April 29 - May 3, 2018 Proceedings, Part {III}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10822},
+  pages     = {125--157},
+  publisher = {Springer},
+  year      = {2018},
+  url       = {https://doi.org/10.1007/978-3-319-78372-7\_5},
+  doi       = {10.1007/978-3-319-78372-7\_5},
+  timestamp = {Tue, 14 May 2019 10:00:53 +0200},
+  biburl    = {https://dblp.org/rec/conf/eurocrypt/Pinkas0WW18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{dssp,
+author = {Manjhi, Amit and Ailamaki, Anastassia and Maggs, Bruce M. and Mowry, Todd C. and Olston, Christopher and Tomasic, Anthony},
+title = {Simultaneous Scalability and Security for Data-Intensive Web Applications},
+year = {2006},
+isbn = {1595934340},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1142473.1142501},
+doi = {10.1145/1142473.1142501},
+abstract = {For Web applications in which the database component is the bottleneck, scalability can be provided by a third-party Database Scalability Service Provider (DSSP) that caches application data and supplies query answers on behalf of the application. Cost-effective DSSPs will need to cache data from many applications, inevitably raising concerns about security. However, if all data passing through a DSSP is encrypted to enhance security, then data updates trigger invalidation of large regions of cache. Consequently, achieving good scalability becomes virtually impossible. There is a tradeoff between security and scalability, which requires careful consideration.In this paper we study the security-scalability tradeoff, both formally and empirically. We begin by providing a method for statically identifying segments of the database that can be encrypted without impacting scalability. Experiments over a prototype DSSP system show the effectiveness of our static analysis method--for all three realistic bench-mark applications that we study, our method enables a significant fraction of the database to be encrypted without impacting scalability. Moreover, most of the data that can be encrypted without impacting scalability is of the type that application designers will want to encrypt, all other things being equal. Based on our static analysis method, we propose a new scalability-conscious security design methodology that features: (a) compulsory encryption of highly sensitive data like credit card information, and (b) encryption of data for which encryption does not impair scalability. As a result, the security-scalability tradeoff needs to be considered only over data for which encryption impacts scalability, thus greatly simplifying the task of managing the tradeoff.},
+booktitle = {Proceedings of the 2006 ACM SIGMOD International Conference on Management of Data},
+pages = {241–252},
+numpages = {12},
+location = {Chicago, IL, USA},
+series = {SIGMOD '06}
+}
+
+@inproceedings{database-info-sharing,
+author = {Agrawal, Rakesh and Evfimievski, Alexandre and Srikant, Ramakrishnan},
+title = {Information Sharing across Private Databases},
+year = {2003},
+isbn = {158113634X},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/872757.872771},
+doi = {10.1145/872757.872771},
+abstract = {Literature on information integration across databases tacitly assumes that the data in each database can be revealed to the other databases. However, there is an increasing need for sharing information across autonomous entities in such a way that no information apart from the answer to the query is revealed. We formalize the notion of minimal information sharing across private databases, and develop protocols for intersection, equijoin, intersection size, and equijoin size. We also show how new applications can be built using the proposed protocols.},
+booktitle = {Proceedings of the 2003 ACM SIGMOD International Conference on Management of Data},
+pages = {86--97},
+numpages = {12},
+location = {San Diego, California},
+series = {SIGMOD '03}
+}
+
+@inproceedings{DBLP:conf/ndss/ChowLS09,
+  author    = {Sherman S. M. Chow and
+               Jie{-}Han Lee and
+               Lakshminarayanan Subramanian},
+  title     = {Two-Party Computation Model for Privacy-Preserving Queries over Distributed
+               Databases},
+  booktitle = {{NDSS}},
+  publisher = {The Internet Society},
+  year      = {2009}
+}
+
+@article{seattle-report-2020,
+author = {Abadi, Daniel and Ailamaki, Anastasia and Andersen, David and Bailis, Peter and Balazinska, Magdalena and Bernstein, Philip and Boncz, Peter and Chaudhuri, Surajit and Cheung, Alvin and Doan, AnHai and Dong, Luna and Franklin, Michael J. and Freire, Juliana and Halevy, Alon and Hellerstein, Joseph M. and Idreos, Stratos and Kossmann, Donald and Kraska, Tim and Krishnamurthy, Sailesh and Markl, Volker and Melnik, Sergey and Milo, Tova and Mohan, C. and Neumann, Thomas and Chin Ooi, Beng and Ozcan, Fatma and Patel, Jignesh and Pavlo, Andrew and Popa, Raluca and Ramakrishnan, Raghu and R\'{e}, Christopher and Stonebraker, Michael and Suciu, Dan},
+title = {The Seattle Report on Database Research},
+year = {2020},
+issue_date = {December 2019},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {48},
+number = {4},
+issn = {0163-5808},
+url = {https://doi.org/10.1145/3385658.3385668},
+doi = {10.1145/3385658.3385668},
+abstract = {Approximately every five years, a group of database researchers meet to do a self-assessment of our community, including reflections on our impact on the industry as well as challenges facing our research community. This report summarizes the discussion and conclusions of the 9th such meeting, held during October 9-10, 2018 in Seattle.},
+journal = {SIGMOD Rec.},
+month = feb,
+pages = {44--53},
+numpages = {10}
+}
+
+@inproceedings{secure-db-services,
+       booktitle = {The Second Biennial Conference on Innovative Data Systems Research (CIDR 2005)},
+           title = {Two Can Keep a Secret: A Distributed Architecture for Secure Database Services},
+          author = {Gagan Aggarwal and Mayank Bawa and Prasanna Ganesan and Hector Garcia-Molina and Krishnaram Kenthapadi and Rajeev Motwani and Utkarsh Srivastava and Dilys Thomas and Ying Xu},
+            year = {2005},
+         journal = {CIDR 2005},
+             url = {http://ilpubs.stanford.edu:8090/659/},
+        abstract = {Recent trends towards database outsourcing, as well as concerns and laws governing data privacy, have led to great interest in enabling secure database services. Previous approaches to enabling such a service have been based on data encryption, causing a large overhead in query processing. We propose a new, distributed architecture that allows an organization to outsource its data management to {\em two} untrusted servers while preserving data privacy. We show how the presence of two servers enables efficient partitioning of data so that the contents at any one server are guaranteed not to breach data privacy. We show how to optimize and execute queries in this architecture, and discuss new challenges that emerge in designing the database schema.}
+}
+
+@inproceedings{splinter,
+author = {Wang, Frank and Yun, Catherine and Goldwasser, Shafi and Vaikuntanathan, Vinod and Zaharia, Matei},
+title = {Splinter: Practical Private Queries on Public Data},
+year = {2017},
+isbn = {9781931971379},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Many online services let users query public datasets such as maps, flight prices, or restaurant reviews. Unfortunately, the queries to these services reveal highly sensitive information that can compromise users' privacy. This paper presents Splinter, a system that protects users' queries on public data and scales to realistic applications. A user splits her query into multiple parts and sends each part to a different provider that holds a copy of the data. As long as any one of the providers is honest and does not collude with the others, the providers cannot determine the query. Splinter uses and extends a new cryptographic primitive called Function Secret Sharing (FSS) that makes it up to an order of magnitude more efficient than prior systems based on Private Information Retrieval and garbled circuits. We develop protocols extending FSS to new types of queries, such as MAX and TOPK queries. We also provide an optimized implementation of FSS using AES-NI instructions and multicores. Splinter achieves end-to-end latencies below 1.6 seconds for realistic workloads including a Yelp clone, flight search, and map routing.},
+booktitle = {Proceedings of the 14th USENIX Conference on Networked Systems Design and Implementation},
+pages = {299–313},
+numpages = {15},
+location = {Boston, MA, USA},
+series = {NSDI'17}
+}
+
+@inproceedings{obladi,
+author = {Crooks, Natacha and Burke, Matthew and Cecchetti, Ethan and Harel, Sitar and Agarwal, Rachit and Alvisi, Lorenzo},
+title = {Obladi: Oblivious Serializable Transactions in the Cloud},
+year = {2018},
+isbn = {9781931971478},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {This paper presents the design and implementation of Obladi, the first system to provide ACID transactions while also hiding access patterns. Obladi uses as its building block oblivious RAM, but turns the demands of supporting transactions into a performance opportunity. By executing transactions within epochs and delaying commit decisions until an epoch ends, Obladi reduces the amortized bandwidth costs of oblivious storage and increases overall system throughput. These performance gains, combined with new oblivious mechanisms for concurrency control and recovery, allow Obladi to execute OLTP workloads with reasonable throughput: it comes within 5\texttimes{} to 12\texttimes{} of a non-oblivious baseline on the TPC-C, SmallBank, and FreeHealth applications. Latency overheads, however, are higher (70\texttimes{} on TPC-C).},
+booktitle = {Proceedings of the 13th USENIX Conference on Operating Systems Design and Implementation},
+pages = {727-743},
+numpages = {17},
+location = {Carlsbad, CA, USA},
+series = {OSDI'18}
+}
+
+
+
+@inproceedings{surajit,
+  author    = {Surajit Chaudhuri and
+               Kyuseok Shim},
+  editor    = {Jorge B. Bocca and
+               Matthias Jarke and
+               Carlo Zaniolo},
+  title     = {Including Group-By in Query Optimization},
+  booktitle = {VLDB'94, Proceedings of 20th International Conference on Very Large
+               Data Bases, September 12-15, 1994, Santiago de Chile, Chile},
+  pages     = {354--366},
+  publisher = {Morgan Kaufmann},
+  year      = {1994},
+  url       = {http://www.vldb.org/conf/1994/P354.PDF},
+  timestamp = {Wed, 29 Mar 2017 16:45:24 +0200},
+  biburl    = {https://dblp.org/rec/conf/vldb/ChaudhuriS94.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{larson,
+  author    = {Weipeng P. Yan and
+               Per{-}{\AA}ke Larson},
+  title     = {Performing Group-By before Join},
+  booktitle = {Proceedings of the Tenth International Conference on Data Engineering,
+               February 14-18, 1994, Houston, Texas, {USA}},
+  pages     = {89--100},
+  publisher = {{IEEE} Computer Society},
+  year      = {1994},
+  url       = {https://doi.org/10.1109/ICDE.1994.283001},
+  doi       = {10.1109/ICDE.1994.283001},
+  timestamp = {Wed, 16 Oct 2019 14:14:56 +0200},
+  biburl    = {https://dblp.org/rec/conf/icde/YanL94.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{cryptoeprint:2020:599,
+    author = {Prasad Buddhavarapu and Andrew Knox and Payman Mohassel and Shubho Sengupta and  Erik Taubeneck and Vlad Vlaskin },
+    title = {Private Matching for Compute},
+    howpublished = {Cryptology ePrint Archive, Report 2020/599},
+    year = {2020},
+    note = {\url{https://eprint.iacr.org/2020/599}},
+}
+
+@article{shamir,
+author = {Shamir, Adi},
+title = {How to Share a Secret},
+year = {1979},
+issue_date = {Nov. 1979},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {22},
+number = {11},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/359168.359176},
+doi = {10.1145/359168.359176},
+abstract = {In this paper we show how to divide data D into n pieces in such a way that D is easily reconstructable from any k pieces, but even complete knowledge of k - 1 pieces reveals absolutely no information about D. This technique enables the construction of robust key management schemes for cryptographic systems that can function securely and reliably even when misfortunes destroy half the pieces and security breaches expose all but one of the remaining pieces.},
+journal = {Commun. ACM},
+month = nov,
+pages = {612-613},
+numpages = {2},
+keywords = {interpolation, key management, cryptography}
+}
+
+@InProceedings{structural-encryption,
+author="Kamara, Seny
+and Moataz, Tarik",
+editor="Peyrin, Thomas
+and Galbraith, Steven",
+title="{SQL} on Structurally-Encrypted Databases",
+booktitle="Advances in Cryptology -- ASIACRYPT 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="149--180",
+abstract="We show how to encrypt a relational database in such a way that it can efficiently support a large class of SQL queries. Our construction is based solely on structured encryption (STE) and does not make use of any property-preserving encryption (PPE) schemes such as deterministic and order-preserving encryption. As such, our approach leaks considerably less than PPE-based solutions which have recently been shown to reveal a lot of information in certain settings (Naveed et al., CCS '15). Our construction is efficient and---under some conditions on the database and queries---can have asymptotically-optimal query complexity. We also show how to extend our solution to be dynamic while maintaining the scheme's optimal query complexity.",
+isbn="978-3-030-03326-2"
+}
+
+
+
+@inproceedings{order-encryption,
+author = {Agrawal, Rakesh and Kiernan, Jerry and Srikant, Ramakrishnan and Xu, Yirong},
+title = {Order Preserving Encryption for Numeric Data},
+year = {2004},
+isbn = {1581138598},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1007568.1007632},
+doi = {10.1145/1007568.1007632},
+abstract = {Encryption is a well established technology for protecting sensitive data. However, once encrypted, data can no longer be easily queried aside from exact matches. We present an order-preserving encryption scheme for numeric data that allows any comparison operation to be directly applied on encrypted data. Query results produced are sound (no false hits) and complete (no false drops). Our scheme handles updates gracefully and new values can be added without requiring changes in the encryption of other values. It allows standard databse indexes to be built over encrypted tables and can easily be integrated with existing database systems. The proposed scheme has been designed to be deployed in application environments in which the intruder can get access to the encrypted database, but does not have prior domain information such as the distribution of values and annot encrypt or decrypt arbitrary values of his choice. The encryption is robust against estimation of the true value in such environments.},
+booktitle = {Proceedings of the 2004 ACM SIGMOD International Conference on Management of Data},
+pages = {563–574},
+numpages = {12},
+location = {Paris, France},
+series = {SIGMOD '04}
+}
+
+@inproceedings{kellaris,
+author = {Kellaris, Georgios and Kollios, George and Nissim, Kobbi and O'Neill, Adam},
+title = {Generic Attacks on Secure Outsourced Databases},
+year = {2016},
+isbn = {9781450341394},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2976749.2978386},
+doi = {10.1145/2976749.2978386},
+abstract = {Recently, various protocols have been proposed for securely outsourcing database storage to a third party server, ranging from systems with "full-fledged" security based on strong cryptographic primitives such as fully homomorphic encryption or oblivious RAM, to more practical implementations based on searchable symmetric encryption or even on deterministic and order-preserving encryption. On the flip side, various attacks have emerged that show that for some of these protocols confidentiality of the data can be compromised, usually given certain auxiliary information. We take a step back and identify a need for a formal understanding of the inherent efficiency/privacy trade-off in outsourced database systems, independent of the details of the system. We propose abstract models that capture secure outsourced storage systems in sufficient generality, and identify two basic sources of leakage, namely access pattern and ommunication volume. We use our models to distinguish certain classes of outsourced database systems that have been proposed, and deduce that all of them exhibit at least one of these leakage sources.We then develop generic reconstruction attacks on any system supporting range queries where either access pattern or communication volume is leaked. These attacks are in a rather weak passive adversarial model, where the untrusted server knows only the underlying query distribution. In particular, to perform our attack the server need not have any prior knowledge about the data, and need not know any of the issued queries nor their results. Yet, the server can reconstruct the secret attribute of every record in the database after about $N^4$ queries, where N is the domain size. We provide a matching lower bound showing that our attacks are essentially optimal. Our reconstruction attacks using communication volume apply even to systems based on homomorphic encryption or oblivious RAM in the natural way.Finally, we provide experimental results demonstrating the efficacy of our attacks on real datasets with a variety of different features. On all these datasets, after the required number of queries our attacks successfully recovered the secret attributes of every record in at most a few seconds.},
+booktitle = {Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1329--1340},
+numpages = {12},
+keywords = {secure outsourced databases, generic attacks},
+location = {Vienna, Austria},
+series = {CCS '16}
+}
+
+@inproceedings{aby3,
+author = {Mohassel, Payman and Rindal, Peter},
+title = {ABY${}^3$: A Mixed Protocol Framework for Machine Learning},
+year = {2018},
+isbn = {9781450356930},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3243734.3243760},
+doi = {10.1145/3243734.3243760},
+abstract = {Machine learning is widely used to produce models for a range of applications and is increasingly offered as a service by major technology companies. However, the required massive data collection raises privacy concerns during both training and prediction stages. In this paper, we design and implement a general framework for privacy-preserving machine learning and use it to obtain new solutions for training linear regression, logistic regression and neural network models. Our protocols are in a three-server model wherein data owners secret share their data among three servers who train and evaluate models on the joint data using three-party computation (3PC). Our main contribution is a new and complete framework ($textABY ^3$) for efficiently switching back and forth between arithmetic, binary, and Yao 3PC which is of independent interest. Many of the conversions are based on new techniques that are designed and optimized for the first time in this paper. We also propose new techniques for fixed-point multiplication of shared decimal values that extends beyond the three-party case, and customized protocols for evaluating piecewise polynomial functions. We design variants of each building block that is secure against em malicious adversaries who deviate arbitrarily. We implement our system in C++. Our protocols are up to em four orders of magnitude faster than the best prior work, hence significantly reducing the gap between privacy-preserving and plaintext training.},
+booktitle = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {35--52},
+numpages = {18},
+keywords = {machine learning, secure protocol, logistic regression, secure multi-party computation, training, regression, inference, neural networks, gradient descent},
+location = {Toronto, Canada},
+series = {CCS '18}
+}
+
+
+@inproceedings{aby,
+  author    = {Daniel Demmler and
+               Thomas Schneider and
+               Michael Zohner},
+  title     = {{ABY} - {A} Framework for Efficient Mixed-Protocol Secure Two-Party
+               Computation},
+  booktitle = {22nd Annual Network and Distributed System Security Symposium, {NDSS}
+               2015, San Diego, California, USA, February 8-11, 2015},
+  publisher = {The Internet Society},
+  year      = {2015},
+  url       = {https://www.ndss-symposium.org/ndss2015/aby---framework-efficient-mixed-protocol-secure-two-party-computation},
+  timestamp = {Tue, 16 Jan 2018 13:23:48 +0100},
+  biburl    = {https://dblp.org/rec/conf/ndss/Demmler0Z15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{tpch,
+    author = {{Transaction Processing Performance Council}},
+    title = {{TPC Benchmark H}},
+    howpublished = {\url{http://tpc.org/tpc_documents_current_versions/pdf/tpc-h_v3.0.0.pdf}},
+    note = {[Online; accessed April 2022]},
+}
+
+@misc{scale-mamba,
+    author = {{KU Leuven}},
+    title = {{SCALE-MAMBA S}oftware},
+    howpublished = {\url{https://homes.esat.kuleuven.be/~nsmart/SCALE/}},
+    note = "[Online; accessed April 2022]"
+}
+
+
+@misc{fhe-impl3,
+  title = {{HElib}},
+  howpublished = "\url{https://github.com/homenc/HElib}",
+  note = "[Online; accessed April 2022]"
+}
+
+@misc{fhe-impl4,
+  title = {{SEAL}},
+  howpublished = "\url{https://github.com/Microsoft/SEAL}",
+  note = "[Online; accessed April 2022]"
+}
+
+@misc{fhe-impl5,
+  title = {{PALISADE}},
+  howpublished = "\url{https://gitlab.com/palisade/palisade-release}",
+  note = "[Online; accessed April 2022]"
+}
+
+
+@inproceedings{sharemind,
+  author    = {Dan Bogdanov and
+               Sven Laur and
+               Jan Willemson},
+  editor    = {Sushil Jajodia and
+               Javier L{\'{o}}pez},
+  title     = {Sharemind: {A} Framework for Fast Privacy-Preserving Computations},
+  booktitle = {Computer Security - {ESORICS} 2008, 13th European Symposium on Research
+               in Computer Security, M{\'{a}}laga, Spain, October 6-8, 2008.
+               Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5283},
+  pages     = {192--206},
+  publisher = {Springer},
+  year      = {2008},
+  url       = {https://doi.org/10.1007/978-3-540-88313-5\_13},
+  doi       = {10.1007/978-3-540-88313-5\_13},
+  timestamp = {Thu, 29 Aug 2019 08:09:59 +0200},
+  biburl    = {https://dblp.org/rec/conf/esorics/BogdanovLW08.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{jiff,
+  author = {{Boston University}},
+  title = {{Javascript Implementation of Federated Functionalities}},
+  howpublished = "\url{https://github.com/multiparty/jiff}",
+  note = "[Online; accessed April 2022]"
+}
+
+@article{DBLP:conf/eurosys/VolgushevSGVLB19,
+  author    = {Nikolaj Volgushev and
+               Malte Schwarzkopf and
+               Ben Getchell and
+               Mayank Varia and
+               Andrei Lapets and
+               Azer Bestavros},
+  editor    = {George Candea and
+               Robbert van Renesse and
+               Christof Fetzer},
+  title     = {Conclave: secure multi-party computation on big data},
+  booktitle = {Proceedings of the Fourteenth EuroSys Conference 2019, Dresden, Germany,
+               March 25-28, 2019},
+  pages     = {3:1--3:18},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3302424.3303982},
+  doi       = {10.1145/3302424.3303982},
+  timestamp = {Thu, 28 Mar 2019 13:37:53 +0100},
+  biburl    = {https://dblp.org/rec/conf/eurosys/VolgushevSGVLB19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{yao,
+author = {Yao, Andrew Chi-Chih},
+title = {How to Generate and Exchange Secrets},
+year = {1986},
+isbn = {0818607408},
+publisher = {IEEE Computer Society},
+address = {USA},
+url = {https://doi.org/10.1109/SFCS.1986.25},
+doi = {10.1109/SFCS.1986.25},
+abstract = {In this paper we introduce a new tool for controlling the knowledge transfer process in cryptographic protocol design. It is applied to solve a general class of problems which include most of the two-party cryptographic problems in the literature. Specifically, we show how two parties A and B can interactively generate a random integer N = pundefinedq such that its secret, i.e., the prime factors (p, q), is hidden from either party individually but is recoverable jointly if desired. This can be utilized to give a protocol for two parties with private values i and j to compute any polynomially computable functions f(i,j) and g(i,j) with minimal knowledge transfer and a strong fairness property. As a special case, A and B can exchange a pair of secrets sA, sB, e.g. the factorization of an integer and a Hamiltonian circuit in a graph, in such a way that sA becomes computable by B when and only when sB becomes computable by A. All these results are proved assuming only that the problem of factoring large intergers is computationally intractable.},
+booktitle = {Proceedings of the 27th Annual Symposium on Foundations of Computer Science},
+pages = {162--167},
+numpages = {6},
+series = {SFCS '86}
+}
+
+@article{pcornet,
+  author    = {Adrian F. Hernandez and
+               Rachael L. Fleurence and
+               Russell L. Rothman},
+  title     = {The {ADAPTABLE} Trial and {PCORnet}: Shining Light on a New Research Paradigm},
+  journal   = {Ann Intern Med. },
+  volume    = {163},
+  number    = {8},
+  pages     = {635--636},
+  year      = {2015},
+  url       = {},
+  doi       = {10.7326/M15-1460},
+  timestamp = {},
+  biburl    = {},
+  bibsource = {}
+}
+
+@article{DBLP:journals/ftsec/EvansKR18,
+  author    = {David Evans and
+               Vladimir Kolesnikov and
+               Mike Rosulek},
+  title     = {A Pragmatic Introduction to Secure Multi-Party Computation},
+  journal   = {Found. Trends Priv. Secur.},
+  volume    = {2},
+  number    = {2-3},
+  pages     = {70--246},
+  year      = {2018}
+}
+
+@inproceedings{DBLP:conf/tcc/DamgardFKNT06,
+  author    = {Ivan Damg{\aa}rd and
+               Matthias Fitzi and
+               Eike Kiltz and
+               Jesper Buus Nielsen and
+               Tomas Toft},
+  title     = {Unconditionally Secure Constant-Rounds Multi-party Computation for
+               Equality, Comparison, Bits and Exponentiation},
+  booktitle = {{TCC}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3876},
+  pages     = {285--304},
+  publisher = {Springer},
+  year      = {2006}
+}
+
+@inproceedings{DBLP:conf/sosp/BittauEMMRLRKTS17,
+  author    = {Andrea Bittau and
+               {\'{U}}lfar Erlingsson and
+               Petros Maniatis and
+               Ilya Mironov and
+               Ananth Raghunathan and
+               David Lie and
+               Mitch Rudominer and
+               Ushasree Kode and
+               Julien Tinn{\'{e}}s and
+               Bernhard Seefeld},
+  title     = {Prochlo: Strong Privacy for Analytics in the Crowd},
+  booktitle = {{SOSP}},
+  pages     = {441--459},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+
+@inproceedings{DBLP:conf/ccs/NaveedKW15,
+  author    = {Muhammad Naveed and
+               Seny Kamara and
+               Charles V. Wright},
+  title     = {Inference Attacks on Property-Preserving Encrypted Databases},
+  booktitle = {{ACM} Conference on Computer and Communications Security},
+  pages     = {644--655},
+  publisher = {{ACM}},
+  year      = {2015}
+}
+
+@inproceedings{DBLP:conf/ccs/HeMFS17,
+  author    = {Xi He and
+               Ashwin Machanavajjhala and
+               Cheryl J. Flynn and
+               Divesh Srivastava},
+  title     = {Composing Differential Privacy and Secure Computation: {A} Case Study
+               on Scaling Private Record Linkage},
+  booktitle = {{ACM} Conference on Computer and Communications Security},
+  pages     = {1389--1406},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+
+@inproceedings{DBLP:conf/ctrsa/IshaiKLO16,
+  author    = {Yuval Ishai and
+               Eyal Kushilevitz and
+               Steve Lu and
+               Rafail Ostrovsky},
+  title     = {Private Large-Scale Databases with Distributed Searchable Symmetric
+               Encryption},
+  booktitle = {{CT-RSA}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9610},
+  pages     = {90--107},
+  publisher = {Springer},
+  year      = {2016}
+}
+
+@inproceedings{DBLP:conf/ccs/DoernerS17,
+  author    = {Jack Doerner and
+               Abhi Shelat},
+  title     = {Scaling {ORAM} for Secure Computation},
+  booktitle = {{CCS}},
+  pages     = {523--535},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+
+@inproceedings{DBLP:conf/ndss/CashJJJKRS14,
+  author    = {David Cash and
+               Joseph Jaeger and
+               Stanislaw Jarecki and
+               Charanjit S. Jutla and
+               Hugo Krawczyk and
+               Marcel{-}Catalin Rosu and
+               Michael Steiner},
+  title     = {Dynamic Searchable Encryption in Very-Large Databases: Data Structures
+               and Implementation},
+  booktitle = {{NDSS}},
+  publisher = {The Internet Society},
+  year      = {2014}
+}
+
+@inproceedings{DBLP:conf/ccs/GrubbsLMP18,
+  author    = {Paul Grubbs and
+               Marie{-}Sarah Lacharit{\'{e}} and
+               Brice Minaud and
+               Kenneth G. Paterson},
+  title     = {Pump up the Volume: Practical Database Reconstruction from Volume
+               Leakage on Range Queries},
+  booktitle = {{CCS}},
+  pages     = {315--331},
+  publisher = {{ACM}},
+  year      = {2018}
+}
+
+@inproceedings{fhe-impl6,
+  author    = {David W. Archer and
+               Jos{\'{e}} Manuel Calder{\'{o}}n Trilla and
+               Jason Dagit and
+               Alex J. Malozemoff and
+               Yuriy Polyakov and
+               Kurt Rohloff and
+               Gerard W. Ryan},
+  title     = {{RAMPARTS:} {A} Programmer-Friendly System for Building Homomorphic
+               Encryption Applications},
+  booktitle = {WAHC@CCS},
+  pages     = {57--68},
+  publisher = {{ACM}},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/eurosys/DaveLPGS20,
+  author    = {Ankur Dave and
+               Chester Leung and
+               Raluca Ada Popa and
+               Joseph E. Gonzalez and
+               Ion Stoica},
+  title     = {Oblivious coopetitive analytics using hardware enclaves},
+  booktitle = {EuroSys},
+  pages     = {39:1--39:17},
+  publisher = {{ACM}},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/eurocrypt/PinkasRTY20,
+  author    = {Benny Pinkas and
+               Mike Rosulek and
+               Ni Trieu and
+               Avishay Yanai},
+  title     = {{PSI} from PaXoS: Fast, Malicious Private Set Intersection},
+  booktitle = {{EUROCRYPT} {(2)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12106},
+  pages     = {739--767},
+  publisher = {Springer},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/uss/Pinkas0SZ15,
+  author    = {Benny Pinkas and
+               Thomas Schneider and
+               Gil Segev and
+               Michael Zohner},
+  title     = {Phasing: Private Set Intersection Using Permutation-based Hashing},
+  booktitle = {{USENIX} Security Symposium},
+  pages     = {515--530},
+  publisher = {{USENIX} Association},
+  year      = {2015}
+}
+
+@inproceedings{DBLP:conf/ccs/WangRK17,
+  author    = {Xiao Wang and
+               Samuel Ranellucci and
+               Jonathan Katz},
+  title     = {Authenticated Garbling and Efficient Maliciously Secure Two-Party
+               Computation},
+  booktitle = {{CCS}},
+  pages     = {21--37},
+  publisher = {{ACM}},
+  year      = {2017}
+}
+
+@article{DBLP:journals/iacr/PatraSSY20,
+  author    = {Arpita Patra and
+               Thomas Schneider and
+               Ajith Suresh and
+               Hossein Yalame},
+  title     = {{ABY2.0:} Improved Mixed-Protocol Secure Two-Party Computation},
+  booktitle = {{USENIX} Security Symposium},
+  pages     = {2165--2182},
+  publisher = {{USENIX} Association},
+  year      = {2021}
+}
+
+
+
+@inproceedings{DBLP:conf/uss/Dalskov0K21,
+  author    = {Anders P. K. Dalskov and
+               Daniel Escudero and
+               Marcel Keller},
+  title     = {Fantastic Four: Honest-Majority Four-Party Secure Computation With
+               Malicious Security},
+  booktitle = {{USENIX} Security Symposium},
+  pages     = {2183--2200},
+  publisher = {{USENIX} Association},
+  year      = {2021}
+}
+
+@inproceedings{DBLP:conf/asiacrypt/ChaseGP20,
+  author    = {Melissa Chase and
+               Esha Ghosh and
+               Oxana Poburinnaya},
+  title     = {Secret-Shared Shuffle},
+  booktitle = {{ASIACRYPT} {(3)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12493},
+  pages     = {342--372},
+  publisher = {Springer},
+  year      = {2020}
+}
+
+@article{DBLP:journals/iacr/ChidaHIKKP19,
+  author    = {Koji Chida and
+               Koki Hamada and
+               Dai Ikarashi and
+               Ryo Kikuchi and
+               Naoto Kiribuchi and
+               Benny Pinkas},
+  title     = {An Efficient Secure Three-Party Sorting Protocol with an Honest Majority},
+  journal   = {{IACR} Cryptol. ePrint Arch.},
+  volume    = {2019},
+  pages     = {695},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/icisc/HamadaKICT12,
+  author    = {Koki Hamada and
+               Ryo Kikuchi and
+               Dai Ikarashi and
+               Koji Chida and
+               Katsumi Takahashi},
+  title     = {Practically Efficient Multi-party Sorting Protocols from Comparison
+               Sort Algorithms},
+  booktitle = {{ICISC}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7839},
+  pages     = {202--216},
+  publisher = {Springer},
+  year      = {2012}
+}
+
+@inproceedings{DBLP:conf/stoc/AjtaiKS83,
+  author    = {Mikl{\'{o}}s Ajtai and
+               J{\'{a}}nos Koml{\'{o}}s and
+               Endre Szemer{\'{e}}di},
+  title     = {An {O}(n log n) Sorting Network},
+  booktitle = {{STOC}},
+  pages     = {1--9},
+  publisher = {{ACM}},
+  year      = {1983}
+}
+
+@article{DBLP:journals/ieicet/NishideO07,
+  author    = {Takashi Nishide and
+               Kazuo Ohta},
+  title     = {Constant-Round Multiparty Computation for Interval Test, Equality
+               Test, and Comparison},
+  journal   = {{IEICE} Trans. Fundam. Electron. Commun. Comput. Sci.},
+  volume    = {90-A},
+  number    = {5},
+  pages     = {960--968},
+  year      = {2007}
+}
+
+@inproceedings{DBLP:conf/crypto/CramerDESX18,
+  author    = {Ronald Cramer and
+               Ivan Damg{\aa}rd and
+               Daniel Escudero and
+               Peter Scholl and
+               Chaoping Xing},
+  title     = {{SPD}$\mathbb{Z}_{2^k}$: Efficient {MPC} mod $2^k$ for Dishonest Majority},
+  booktitle = {{CRYPTO} {(2)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10992},
+  pages     = {769--798},
+  publisher = {Springer},
+  year      = {2018}
+}
+
+@article{10.1145/3387108,
+author = {Lindell, Yehuda},
+title = {Secure Multiparty Computation},
+year = {2020},
+issue_date = {January 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {64},
+number = {1},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/3387108},
+doi = {10.1145/3387108},
+abstract = {MPC has moved from theoretical study to real-world usage. How is it doing?},
+journal = {Commun. ACM},
+month = dec,
+pages = {86--96},
+numpages = {11}
+}
+
+@misc{bwwc,
+    author = {{Boston Women's Workforce Council (BWWC)}},
+    title = {Gender/Racial Pay Gap in Boston by the Numbers},
+    howpublished = {https://thebwwc.org},
+    year = {2021}
+}
+
+@inbook{10.1145/3448016.3452808,
+author = {Wang, Yilei and Yi, Ke},
+title = {Secure Yannakakis: Join-Aggregate Queries over Private Data},
+year = {2021},
+isbn = {9781450383431},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3448016.3452808},
+booktitle = {Proceedings of the 2021 International Conference on Management of Data},
+pages = {1969--1981},
+numpages = {13}
+}
+
+@inproceedings{DBLP:conf/uss/KotiPPS21,
+  author    = {Nishat Koti and
+               Mahak Pancholi and
+               Arpita Patra and
+               Ajith Suresh},
+  title     = {{SWIFT:} Super-fast and Robust Privacy-Preserving Machine Learning},
+  booktitle = {30th {USENIX} Security Symposium},
+  publisher = {{USENIX} Association},
+  url       = {https://www.usenix.org/conference/usenixsecurity21/presentation/koti},
+  year      = {2021},
+}
+
+@inbook{talviste,
+  author      = {Riivo Talviste},
+  title       = {Practical applications of secure multiparty computation},
+  editor      = {Peeter Laud and Liina Kamm},
+  booktitle   = {Applications of Secure Multiparty Computation},
+  publisher   = {IOS Press},
+  year        = {2015},
+  pages       = {246-251},
+  chapter     = {12},
+}
+
+@inproceedings{DBLP:conf/ccs/ChaudhariCPS19,
+  author    = {Harsh Chaudhari and
+               Ashish Choudhury and
+               Arpita Patra and
+               Ajith Suresh},
+  title     = {{ASTRA:} High Throughput 3PC over Rings with Application to Secure
+               Prediction},
+  booktitle = {CCSW@CCS},
+  pages     = {81--92},
+  publisher = {{ACM}},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/ndss/PatraS20,
+  author    = {Arpita Patra and
+               Ajith Suresh},
+  title     = {{BLAZE:} Blazing Fast Privacy-Preserving Machine Learning},
+  booktitle = {{NDSS}},
+  publisher = {The Internet Society},
+  year      = {2020}
+}
+
+@inproceedings{DBLP:conf/ndss/ChaudhariRS20,
+  author    = {Harsh Chaudhari and
+               Rahul Rachuri and
+               Ajith Suresh},
+  title     = {Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning},
+  booktitle = {{NDSS}},
+  publisher = {The Internet Society},
+  year      = {2020}
+}
+
+
+@inproceedings{tan2021cryptgpu,
+  title={CryptGPU: Fast privacy-preserving machine learning on the GPU},
+  author={Tan, Sijun and Knott, Brian and Tian, Yuan and Wu, David J},
+  booktitle={2021 IEEE Symposium on Security and Privacy (SP)},
+  pages={1021--1038},
+  year={2021},
+  organization={IEEE}
+}
+
+
+@inproceedings{mishra2020delphi,
+  title={Delphi: A cryptographic inference service for neural networks},
+  author={Mishra, Pratyush and Lehmkuhl, Ryan and Srinivasan, Akshayaram and Zheng, Wenting and Popa, Raluca Ada},
+  booktitle={29th USENIX Security Symposium (USENIX Security 20)},
+  pages={2505--2522},
+  year={2020}
+}
+
+@inproceedings{DBLP:conf/eurocrypt/CheuSUZZ19,
+  author    = {Albert Cheu and
+               Adam D. Smith and
+               Jonathan R. Ullman and
+               David Zeber and
+               Maxim Zhilyaev},
+  title     = {Distributed Differential Privacy via Shuffling},
+  booktitle = {{EUROCRYPT} {(1)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11476},
+  pages     = {375--403},
+  publisher = {Springer},
+  year      = {2019}
+}
+
+@inproceedings{DBLP:conf/ndss/BohlerK20,
+  author    = {Jonas B{\"{o}}hler and
+               Florian Kerschbaum},
+  title     = {Secure Sublinear Time Differentially Private Median Computation},
+  booktitle = {{NDSS}},
+  publisher = {The Internet Society},
+  year      = {2020}
+}
+
+@inproceedings{latenseer,
+  title={LatenSeer: Causal Modeling of End-to-End Latency Distributions by Harnessing Distributed Tracing},
+  author={Zhang, Yazhuo and Isaacs, Rebecca and Yue, Yao and Yang, Juncheng and Zhang, Lei and Vigfusson, Ymir},
+  booktitle={Proceedings of the 2023 ACM Symposium on Cloud Computing},
+  pages={502--519},
+  year={2023}
+}
+
+@inproceedings{alibaba,
+  title={Characterizing microservice dependency and performance: Alibaba trace analysis},
+  author={Luo, Shutian and Xu, Huanle and Lu, Chengzhi and Ye, Kejiang and Xu, Guoyao and Zhang, Liping and Ding, Yu and He, Jian and Xu, Chengzhong},
+  booktitle={Proceedings of the ACM Symposium on Cloud Computing},
+  pages={412--426},
+  year={2021}
+}
+
+@inproceedings{meta,
+  title={Lifting the veil on $\{$Meta’s$\}$ microservice architecture: Analyses of topology and request workflows},
+  author={Huye, Darby and Shkuro, Yuri and Sambasivan, Raja R},
+  booktitle={2023 USENIX Annual Technical Conference (USENIX ATC 23)},
+  pages={419--432},
+  year={2023}
+}
+
+@inproceedings{dsb,
+  title={An open-source benchmark suite for microservices and their hardware-software implications for cloud \& edge systems},
+  author={Gan, Yu and Zhang, Yanqi and Cheng, Dailun and Shetty, Ankitha and Rathi, Priyal and Katarki, Nayan and Bruno, Ariana and Hu, Justin and Ritchken, Brian and Jackson, Brendon and others},
+  booktitle={Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={3--18},
+  year={2019}
+}
+
+@misc{uber,
+  title={Introducing Domain-Oriented Microservice Architecture},
+  author={GLUCK, A.},
+  howpublished={\url{https://www.uber.com/blog/microservice-architecture/}},
+}
+
+
+@misc{netflix,
+  title={Adopting Microservices at Netflix: Lessons for Architectural Design},
+  author={MAURO, T.},
+  howpublished={{https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/}},
+}
+
+
+@inproceedings{hydragen,
+  title={Hydragen: A microservice benchmark generator},
+  author={Sedghpour, Mohammad Reza Saleh and Duque, Aleksandra Obeso and Cai, Xuejun and Skubic, Bj{\"o}rn and Elmroth, Erik and Klein, Cristian and Tordsson, Johan},
+  booktitle={2023 IEEE 16th International Conference on Cloud Computing (CLOUD)},
+  pages={189--200},
+  year={2023},
+  organization={IEEE}
+}

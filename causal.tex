@@ -1,0 +1,154 @@
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage{usenix-2020-09}
+
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+% \usepackage{cite}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+%\usepackage{newpxtext,newpxmath}
+\usepackage{newpxmath}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{amsmath, amsfonts}
+\newcommand{\stitle}[1]{\vspace{1ex}\noindent\textbf{#1}}
+\newcommand{\ignore}[1]{}
+
+\newcounter{JohnNOC}
+\stepcounter{JohnNOC}
+% \newcommand{\john}[1]{}
+\newcommand{\john}[1]{\textcolor{brown}{\small \bf [John\#\arabic{JohnNOC}\stepcounter{JohnNOC}: #1]}}
+
+\newcounter{VasiaNOC}
+\stepcounter{VasiaNOC}
+% \newcommand{\vasia}[1]{}
+\newcommand{\vasia}[1]{\textcolor{magenta}{\small \bf [Vasia\#\arabic{VasiaNOC}\stepcounter{VasiaNOC}: #1]}}
+
+\newcounter{YizhengNOC}
+\stepcounter{YizhengNOC}
+\newcommand{\yizheng}[1]{\textcolor{brown}{\small \bf [Yizheng\#\arabic{YizhengNOC}\stepcounter{YizhengNOC}: #1]}}
+
+\usepackage{balance}
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=3pt,partopsep=0pt}
+
+\newcommand*\rot{\rotatebox{0}}
+\usepackage[font=small]{caption}
+\usepackage[font=footnotesize]{subcaption}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+
+\usepackage{xspace}
+\newcommand{\ours}{\textsc{Slowpoke}\xspace}
+% \newcommand{\cost}[1]{\ensuremath{C_{#1}}\xspace}
+\newcommand{\opcost}{\ensuremath{C_{o}}\xspace}
+\newcommand{\sync}{\ensuremath{C_{s}}\xspace}
+
+%%vasia's additions
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+\usepackage[vlined,linesnumbered]{algorithm2e}
+\makeatletter
+\renewcommand{\@algocf@capt@plain}{bottom}% formerly {above}
+\makeatother
+
+    
+\SetKwInOut{Input}{Input}
+\SetKwInOut{vars}{vars}
+\SetKwInOut{Output}{Output}
+\SetKwInOut{Parameter}{Param.}
+\SetKwInput{Procedure}{Procedure}
+\SetKwComment{Comment}{{//}}{}
+\newcommand{\Com}[1]{\Comment*{\small #1}}
+
+% for text that might only appear in the full version
+\usepackage{ifthen}
+
+% \newcommand{\fullversiontext}{on}
+\newcommand{\fullversiontext}{highlight}
+% \newcommand{\fullversiontext}{off}
+
+%\newcommand{\iffull}[2]{\ifthenelse{\equal{\fullversiontext}{off}}{#2}{\ifthenelse{\equal{\fullversiontext}{on}}{#1}{\textcolor{blue!75}{#1}}}}
+\newcommand{\iffull}[2]{\ifthenelse{\equal{\fullversiontext}{off}}{#2}{\ifthenelse{\equal{\fullversiontext}{on}}{#1}{{#1}}}}
+
+% command names for primitives
+\newcommand{\boolXOR}{\ensuremath{\texttt{XOR}}\xspace}
+\newcommand{\boolAND}{\ensuremath{\texttt{AND}}\xspace}
+\newcommand{\rca}{\ensuremath{\texttt{RCA}}\xspace}
+\newcommand{\equ}{\ensuremath{\text{eq}}\xspace}
+\newcommand{\ineq}{\ensuremath{\text{ineq}}\xspace}
+\newcommand{\sort}[1]{\ensuremath{\text{sort}_{#1}}\xspace}
+
+\newcommand{\func}[1]{\ensuremath{\mathcal{F}_{\textsf{#1}}}\xspace}
+% \renewcommand{\authors}{John Liagouris,  Vasiliki Kalavri,  Muhammad Faisal and Mayank Varia}
+
+\newcommand{\camera}[1]{\textcolor{black}{#1}}
+\newcommand{\cameranew}[1]{\textcolor{black}{#1}}
+
+\begin{document}
+
+\title{\ours: Distributed Causal Profiling for Microservice Applications}
+% \vspace{-2em}
+\author{Yizheng Xie\\ Brown University \\ {yizheng\_xie@brown.edu}}
+\maketitle
+
+
+% \author{
+% {Yizheng\hspace{1.2cm}Xie}\\
+% \textnormal{\{yizheng_xie\}@brown.edu}
+% } % end author
+
+
+% \pagestyle{empty}
+
+
+
+
+\input{text}
+
+% \input{introduction}
+% \input{overview}
+% \input{background}
+% \input{model}
+% \input{implementation}
+% \input{evaluation}
+% \input{related}
+% \input{next}
+%\input{conclusion}
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+%\begin{acks}
+%To Robert, for the bagels and explaining CMYK and color spaces.
+%\end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{plain}
+\bibliography{refs}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+%\clearpage
+%\appendix
+%\input{appendix}
+%\subsection{Part One}
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
